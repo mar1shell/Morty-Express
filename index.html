@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Morty Survival Rates</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Helvetica, Arial, sans-serif;
+        background-color: #1a1a1a;
+        color: #f0f0f0;
+        display: grid;
+        place-items: center;
+        min-height: 100vh;
+        margin: 0;
+      }
+      #chart-container {
+        width: 90%;
+        max-width: 1000px;
+        background-color: #2a2a2a;
+        padding: 20px;
+        border-radius: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="chart-container">
+      <canvas id="myChart"></canvas>
+    </div>
+
+    <script>
+      // --- User Configuration ---
+      // !!! IMPORTANT: Change this to the path of your JSON file
+      const JSON_FILE_NAME = "data/trip_data_2025-11-04T10-38-58-890Z.json";
+      const ROLLING_WINDOW_SIZE = 25;
+      // --------------------------
+
+      /**
+       * Calculates the rolling average for an array of numbers (1s and 0s).
+       */
+      function calculateRollingAverage(data, windowSize) {
+        let result = [];
+        let sum = 0;
+        let window = [];
+        for (let i = 0; i < data.length; i++) {
+          // Add new value
+          sum += data[i];
+          window.push(data[i]);
+
+          // Remove old value if window is full
+          if (window.length > windowSize) {
+            sum -= window.shift();
+          }
+
+          // Add the current average to the result
+          result.push(sum / window.length);
+        }
+        return result;
+      }
+
+      /**
+       * Formats the data for Chart.js {x: trip_number, y: rate}
+       */
+      function formatForChartJs(trips, rollingAvgs) {
+        return trips.map((trip, index) => ({
+          x: trip.trip_number,
+          y: rollingAvgs[index],
+        }));
+      }
+
+      /**
+       * Main function to fetch data and build the chart
+       */
+      async function createChart() {
+        try {
+          // 1. Fetch and parse the JSON data
+          const response = await fetch(JSON_FILE_NAME);
+          if (!response.ok) {
+            throw new Error(
+              `HTTP error! status: ${response.status} - Could not load ${JSON_FILE_NAME}`
+            );
+          }
+          const allTrips = await response.json();
+
+          // 2. Sort by trip_number to be safe
+          allTrips.sort((a, b) => a.trip_number - b.trip_number);
+
+          // 3. Separate data by planet
+          const planetTrips = { 0: [], 1: [], 2: [] };
+          const planetSurvivedNumeric = { 0: [], 1: [], 2: [] };
+
+          for (const trip of allTrips) {
+            const planet = trip.planet;
+            planetTrips[planet].push(trip);
+            planetSurvivedNumeric[planet].push(trip.survived ? 1 : 0);
+          }
+
+          // 4. Calculate rolling average for each planet
+          const rollingAvgA = calculateRollingAverage(
+            planetSurvivedNumeric[0],
+            ROLLING_WINDOW_SIZE
+          );
+          const rollingAvgB = calculateRollingAverage(
+            planetSurvivedNumeric[1],
+            ROLLING_WINDOW_SIZE
+          );
+          const rollingAvgC = calculateRollingAverage(
+            planetSurvivedNumeric[2],
+            ROLLING_WINDOW_SIZE
+          );
+
+          // 5. Format data for Chart.js
+          const dataA = formatForChartJs(planetTrips[0], rollingAvgA);
+          const dataB = formatForChartJs(planetTrips[1], rollingAvgB);
+          const dataC = formatForChartJs(planetTrips[2], rollingAvgC);
+
+          // 6. Get the canvas and create the chart
+          const ctx = document.getElementById("myChart").getContext("2d");
+          new Chart(ctx, {
+            type: "line", // This creates a line chart
+            data: {
+              datasets: [
+                {
+                  label: "Planet A (On a Cob)",
+                  data: dataA,
+                  borderColor: "rgba(75, 192, 192, 1)",
+                  backgroundColor: "rgba(75, 192, 192, 0.2)",
+                  fill: false,
+                  tension: 0.1, // Makes the line slightly curved
+                },
+                {
+                  label: "Planet B (Cronenberg)",
+                  data: dataB,
+                  borderColor: "rgba(255, 99, 132, 1)",
+                  backgroundColor: "rgba(255, 99, 132, 0.2)",
+                  fill: false,
+                  tension: 0.1,
+                },
+                {
+                  label: "Planet C (Purge Planet)",
+                  data: dataC,
+                  borderColor: "rgba(255, 206, 86, 1)",
+                  backgroundColor: "rgba(255, 206, 86, 0.2)",
+                  fill: false,
+                  tension: 0.1,
+                },
+              ],
+            },
+            options: {
+              responsive: true,
+              plugins: {
+                title: {
+                  display: true,
+                  text: `Rolling Survival Rate per Planet (Last ${ROLLING_WINDOW_SIZE} trips)`,
+                  color: "#f0f0f0",
+                  font: { size: 18 },
+                },
+                tooltip: {
+                  callbacks: {
+                    // Format tooltip to show percentage
+                    label: function (context) {
+                      let label = context.dataset.label || "";
+                      if (label) {
+                        label += ": ";
+                      }
+                      if (context.parsed.y !== null) {
+                        label += (context.parsed.y * 100).toFixed(2) + "%";
+                      }
+                      return label;
+                    },
+                  },
+                },
+              },
+              scales: {
+                x: {
+                  type: "linear", // Use a linear scale for trip numbers
+                  title: {
+                    display: true,
+                    text: "Trip Number",
+                    color: "#ccc",
+                  },
+                  ticks: { color: "#ccc" },
+                  grid: { color: "#444" },
+                },
+                y: {
+                  title: {
+                    display: true,
+                    text: "Rolling Survival Rate",
+                    color: "#ccc",
+                  },
+                  min: 0,
+                  max: 1,
+                  ticks: {
+                    // Format y-axis as percentage
+                    callback: function (value) {
+                      return value * 100 + "%";
+                    },
+                    color: "#ccc",
+                  },
+                  grid: { color: "#444" },
+                },
+              },
+            },
+          });
+        } catch (error) {
+          console.error("Aw, geez, failed to create chart:", error);
+          document.getElementById(
+            "chart-container"
+          ).innerHTML = `<h2 style="color: red;">Error: ${error.message}</h2>
+                     <p>Make sure your file <strong>'${JSON_FILE_NAME}'</strong> exists and you are running this from a local server.</p>`;
+        }
+      }
+
+      // Run the function when the page loads
+      createChart();
+    </script>
+  </body>
+</html>
