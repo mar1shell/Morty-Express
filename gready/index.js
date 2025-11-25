@@ -1,0 +1,196 @@
+import axios from "axios";
+import fs from "fs/promises";
+import path from "path";
+import "dotenv/config";
+
+// --- CONFIGURATION ---
+const ALGO_NAME = "HotStreak_S2_F1";
+const DELAY_BETWEEN_RUNS_MS = 5000;
+
+const apiToken = process.env.API_TOKEN;
+
+if (!apiToken) {
+  console.error("Aw, geez! API_TOKEN is missing. Create a .env file.");
+  process.exit(1);
+}
+
+// --- Strategy Constants ---
+const PROBE_SUCCESS_THRESHOLD = 1; // S2
+const EXPLOIT_FAILURE_THRESHOLD = 3; // F1
+
+// --- API Client ---
+const api = axios.create({
+  baseURL: "https://challenge.sphinxhq.com/api",
+  headers: {
+    Authorization: `Bearer ${apiToken}`,
+  },
+});
+
+// --- API Functions ---
+async function startEpisode() {
+  const response = await api.post("/mortys/start/", null, {});
+  return response.data;
+}
+
+async function sendMortys(planet, morty_count) {
+  const response = await api.post(
+    "/mortys/portal/",
+    { planet, morty_count },
+    {}
+  );
+  return response.data;
+}
+
+async function getEpisodeStatus() {
+  const response = await api.get("/mortys/status/");
+  return response.data;
+}
+
+// --- CORE ALGORITHM ---
+async function runChallenge(runNumber) {
+  console.log(
+    `\n======================================================\n` +
+      `   Starting Run ${runNumber} for ${ALGO_NAME}   \n` +
+      `======================================================`
+  );
+  let status = await startEpisode();
+  let tripNumber = 0;
+
+  const tripData = [];
+
+  // --- State Variables ---
+  let targetPlanet = 0;
+  let currentState = "probing";
+  let probeSuccesses = 0;
+  let exploitFailures = 0;
+
+  while (status.morties_in_citadel > 0) {
+    // 1. Determine Mortys to send
+    const mortysToSend = currentState === "probing" ? 1 : 3;
+    const currentMortyCount = Math.min(mortysToSend, status.morties_in_citadel);
+
+    // 2. Send the Mortys
+    const result = await sendMortys(targetPlanet, currentMortyCount);
+    status = result;
+    tripNumber++;
+
+    const { survived } = result;
+
+    // 3. Log data
+    const tripInfo = {
+      trip_number: tripNumber,
+      planet: targetPlanet,
+      mortys_sent: result.morties_sent,
+      survived: survived,
+      morties_in_citadel: result.morties_in_citadel,
+      morties_on_planet_jessica: result.morties_on_planet_jessica,
+      morties_lost: result.morties_lost,
+      steps_taken: result.steps_taken,
+    };
+    tripData.push(tripInfo);
+
+    console.log(
+      `Trip ${tripNumber} (Run ${runNumber}): [${currentState.toUpperCase()}] Sent ${
+        result.morties_sent
+      } to P${targetPlanet}. Survived: ${survived}. [Citadel: ${
+        result.morties_in_citadel
+      }]`
+    );
+
+    // --- 4. The "Hot Streak" Logic (Unchanged) ---
+    if (currentState === "probing") {
+      if (survived) {
+        probeSuccesses++;
+        if (probeSuccesses >= PROBE_SUCCESS_THRESHOLD) {
+          currentState = "exploiting";
+          exploitFailures = 0;
+        }
+      } else {
+        probeSuccesses = 0;
+        targetPlanet = (targetPlanet + 1) % 3;
+      }
+    } else if (currentState === "exploiting") {
+      if (survived) {
+        exploitFailures = 0;
+      } else {
+        exploitFailures++;
+        if (exploitFailures >= EXPLOIT_FAILURE_THRESHOLD) {
+          currentState = "probing";
+          probeSuccesses = 0;
+          targetPlanet = (targetPlanet + 1) % 3;
+        }
+      }
+    }
+  } // End while loop
+
+  console.log(`Run ${runNumber}: All Mortys have left the Citadel!`);
+
+  // --- GET FINAL SCORE AND PREPARE JSON STRUCTURE ---
+  const finalStatus = await getEpisodeStatus();
+  const successPercentage =
+    (finalStatus.morties_on_planet_jessica / 1000) * 100;
+
+  console.log(
+    `Run ${runNumber} Final Score: ${
+      finalStatus.morties_on_planet_jessica
+    } (${successPercentage.toFixed(2)}%)`
+  );
+
+  const outputData = {
+    run_number: runNumber,
+    algo_name: ALGO_NAME,
+    strategy_params: {
+      probe_success_threshold: PROBE_SUCCESS_THRESHOLD,
+      exploit_failure_threshold: EXPLOIT_FAILURE_THRESHOLD,
+    },
+    success_percentage: successPercentage,
+    final_score: finalStatus.morties_on_planet_jessica,
+    morties_lost: finalStatus.morties_lost,
+    total_trips: tripData.length,
+    trip_data: tripData,
+  };
+
+  // --- SAVE FILE WITH NEW FILENAME ---
+  const dataFolder = "data";
+  await fs.mkdir(dataFolder, { recursive: true });
+  const timestamp = new Date().toISOString().replace(/[:.]/g, "-");
+
+  // Create new filename including the run number
+  const filename = `${ALGO_NAME}_Run_${runNumber}_${timestamp}.json`;
+  const filepath = path.join(dataFolder, filename);
+
+  await fs.writeFile(filepath, JSON.stringify(outputData, null, 2));
+  console.log(`Run ${runNumber} data saved to ${filepath}`);
+}
+
+// --- NEW MAIN INDEFINITE LOOP ---
+async function main() {
+  let runCounter = 1;
+  while (true) {
+    try {
+      await runChallenge(runCounter);
+      runCounter++;
+      console.log(
+        `\nRun complete. Waiting ${
+          DELAY_BETWEEN_RUNS_MS / 1000
+        } seconds before next run...`
+      );
+      // Wait 5 seconds before starting the next run
+      await new Promise((resolve) =>
+        setTimeout(resolve, DELAY_BETWEEN_RUNS_MS)
+      );
+    } catch (err) {
+      console.error(
+        `!!! (Run ${runCounter}) FAILED: ${err.message}. Retrying in 30s...`
+      );
+      if (err.response) {
+        console.error("API Error Data:", err.response.data);
+      }
+      // Wait 30 seconds after a failure
+      await new Promise((resolve) => setTimeout(resolve, 30000));
+    }
+  }
+}
+
+// Run the main indefinite loop
+main();

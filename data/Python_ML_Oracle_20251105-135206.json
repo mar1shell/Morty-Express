@@ -1,0 +1,5191 @@
+{
+  "algo_name": "Python_ML_Oracle",
+  "success_percentage": 61.0,
+  "final_score": 610,
+  "trip_data": [
+    {
+      "trip": 31,
+      "action": 2,
+      "predicted_probs": [
+        0.44387122057811335,
+        0.24897706092329397,
+        0.5201023003381021
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 967,
+      "morties_on_planet_jessica": 13,
+      "morties_lost": 20,
+      "steps_taken": 31,
+      "status_message": "To live is to risk it all, otherwise you're just an inert chunk of randomly assembled molecules."
+    },
+    {
+      "trip": 32,
+      "action": 2,
+      "predicted_probs": [
+        0.4438712205781131,
+        0.24897706092329397,
+        0.5849706462637966
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 964,
+      "morties_on_planet_jessica": 16,
+      "morties_lost": 20,
+      "steps_taken": 32,
+      "status_message": "Wubba lubba dub dub!"
+    },
+    {
+      "trip": 33,
+      "action": 2,
+      "predicted_probs": [
+        0.4438712205781134,
+        0.24897706092329397,
+        0.496826237807834
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 961,
+      "morties_on_planet_jessica": 19,
+      "morties_lost": 20,
+      "steps_taken": 33,
+      "status_message": "Get your sh*t together. Get it all together, and put it in a backpack."
+    },
+    {
+      "trip": 34,
+      "action": 0,
+      "predicted_probs": [
+        0.4438712205781131,
+        0.248977060923294,
+        0.4192828084487318
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 958,
+      "morties_on_planet_jessica": 22,
+      "morties_lost": 20,
+      "steps_taken": 34,
+      "status_message": "Nobody exists on purpose. Nobody belongs anywhere. We're all going to die. Come save some Morties."
+    },
+    {
+      "trip": 35,
+      "action": 2,
+      "predicted_probs": [
+        0.41715726428442695,
+        0.24897706092329397,
+        0.41928280844873156
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 955,
+      "morties_on_planet_jessica": 22,
+      "morties_lost": 23,
+      "steps_taken": 35,
+      "status_message": "Get your sh*t together. Get it all together, and put it in a backpack."
+    },
+    {
+      "trip": 36,
+      "action": 2,
+      "predicted_probs": [
+        0.41715726428442695,
+        0.24897706092329394,
+        0.47285541318175367
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 952,
+      "morties_on_planet_jessica": 22,
+      "morties_lost": 26,
+      "steps_taken": 36,
+      "status_message": "You pass butter. Just kidding, you save Morties."
+    },
+    {
+      "trip": 37,
+      "action": 2,
+      "predicted_probs": [
+        0.41715726428442684,
+        0.248977060923294,
+        0.49740351732912713
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 949,
+      "morties_on_planet_jessica": 25,
+      "morties_lost": 26,
+      "steps_taken": 37,
+      "status_message": "Get Schwifty!"
+    },
+    {
+      "trip": 38,
+      "action": 2,
+      "predicted_probs": [
+        0.41715726428442695,
+        0.24897706092329397,
+        0.4325479688525625
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 946,
+      "morties_on_planet_jessica": 28,
+      "morties_lost": 26,
+      "steps_taken": 38,
+      "status_message": "Keep going! Or don't. I'm not your dad."
+    },
+    {
+      "trip": 39,
+      "action": 0,
+      "predicted_probs": [
+        0.41715726428442684,
+        0.24897706092329394,
+        0.3915091944481699
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 943,
+      "morties_on_planet_jessica": 31,
+      "morties_lost": 26,
+      "steps_taken": 39,
+      "status_message": "You pass butter. Just kidding, you save Morties."
+    },
+    {
+      "trip": 40,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329397,
+        0.3915091944481698
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 940,
+      "morties_on_planet_jessica": 34,
+      "morties_lost": 26,
+      "steps_taken": 40,
+      "status_message": "Get your sh*t together. Get it all together, and put it in a backpack."
+    },
+    {
+      "trip": 41,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329397,
+        0.5494042982958866
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 937,
+      "morties_on_planet_jessica": 37,
+      "morties_lost": 26,
+      "steps_taken": 41,
+      "status_message": "Get Schwifty!"
+    },
+    {
+      "trip": 42,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329397,
+        0.5848174683338881
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 934,
+      "morties_on_planet_jessica": 40,
+      "morties_lost": 26,
+      "steps_taken": 42,
+      "status_message": "That's planning for failure, Morty. Even dumber than regular planning."
+    },
+    {
+      "trip": 43,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329397,
+        0.6269441360143502
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 931,
+      "morties_on_planet_jessica": 43,
+      "morties_lost": 26,
+      "steps_taken": 43,
+      "status_message": "Don't break an arm jerking yourself off."
+    },
+    {
+      "trip": 44,
+      "action": 2,
+      "predicted_probs": [
+        0.28769067337996657,
+        0.24897706092329397,
+        0.7028796633928863
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 928,
+      "morties_on_planet_jessica": 46,
+      "morties_lost": 26,
+      "steps_taken": 44,
+      "status_message": "That's planning for failure, Morty. Even dumber than regular planning."
+    },
+    {
+      "trip": 45,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329397,
+        0.6823860134848894
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 925,
+      "morties_on_planet_jessica": 49,
+      "morties_lost": 26,
+      "steps_taken": 45,
+      "status_message": "I'm not looking for judgement, just a yes or no. Can you save these Morties?"
+    },
+    {
+      "trip": 46,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329394,
+        0.7203747026460634
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 922,
+      "morties_on_planet_jessica": 52,
+      "morties_lost": 26,
+      "steps_taken": 46,
+      "status_message": "Sometimes science is more art than science, Morty."
+    },
+    {
+      "trip": 47,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799665,
+        0.24897706092329397,
+        0.7927574095897004
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 919,
+      "morties_on_planet_jessica": 52,
+      "morties_lost": 29,
+      "steps_taken": 47,
+      "status_message": "Wubba lubba dub dub!"
+    },
+    {
+      "trip": 48,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799667,
+        0.24897706092329394,
+        0.6549983923534023
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 916,
+      "morties_on_planet_jessica": 55,
+      "morties_lost": 29,
+      "steps_taken": 48,
+      "status_message": "Wubba lubba dub dub!"
+    },
+    {
+      "trip": 49,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329394,
+        0.6340383462885261
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 913,
+      "morties_on_planet_jessica": 58,
+      "morties_lost": 29,
+      "steps_taken": 49,
+      "status_message": "Nobody exists on purpose. Nobody belongs anywhere. We're all going to die. Come save some Morties."
+    },
+    {
+      "trip": 50,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329397,
+        0.5639608825397447
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 910,
+      "morties_on_planet_jessica": 58,
+      "morties_lost": 32,
+      "steps_taken": 50,
+      "status_message": "Get your sh*t together. Get it all together, and put it in a backpack."
+    },
+    {
+      "trip": 51,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329394,
+        0.549992651971173
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 907,
+      "morties_on_planet_jessica": 61,
+      "morties_lost": 32,
+      "steps_taken": 51,
+      "status_message": "To live is to risk it all, otherwise you're just an inert chunk of randomly assembled molecules."
+    },
+    {
+      "trip": 52,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329397,
+        0.5996236022895082
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 904,
+      "morties_on_planet_jessica": 64,
+      "morties_lost": 32,
+      "steps_taken": 52,
+      "status_message": "I'm a scientist; because I invent, transform, create, and destroy for a living."
+    },
+    {
+      "trip": 53,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329397,
+        0.6143499902298764
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 901,
+      "morties_on_planet_jessica": 67,
+      "morties_lost": 32,
+      "steps_taken": 53,
+      "status_message": "Don't break an arm jerking yourself off."
+    },
+    {
+      "trip": 54,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.248977060923294,
+        0.6507719690553553
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 898,
+      "morties_on_planet_jessica": 70,
+      "morties_lost": 32,
+      "steps_taken": 54,
+      "status_message": "Sometimes science is more art than science, Morty."
+    },
+    {
+      "trip": 55,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329397,
+        0.6925398820051651
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 895,
+      "morties_on_planet_jessica": 73,
+      "morties_lost": 32,
+      "steps_taken": 55,
+      "status_message": "Get Schwifty!"
+    },
+    {
+      "trip": 56,
+      "action": 2,
+      "predicted_probs": [
+        0.28769067337996657,
+        0.24897706092329394,
+        0.6496423586526417
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 892,
+      "morties_on_planet_jessica": 76,
+      "morties_lost": 32,
+      "steps_taken": 56,
+      "status_message": "Your boos mean nothing, I've seen what makes you cheer!"
+    },
+    {
+      "trip": 57,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329397,
+        0.7028796633928862
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 889,
+      "morties_on_planet_jessica": 79,
+      "morties_lost": 32,
+      "steps_taken": 57,
+      "status_message": "Get Schwifty!"
+    },
+    {
+      "trip": 58,
+      "action": 2,
+      "predicted_probs": [
+        0.28769067337996657,
+        0.24897706092329394,
+        0.7279227563084357
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 886,
+      "morties_on_planet_jessica": 82,
+      "morties_lost": 32,
+      "steps_taken": 58,
+      "status_message": "Don't break an arm jerking yourself off."
+    },
+    {
+      "trip": 59,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329397,
+        0.7575405809525061
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 883,
+      "morties_on_planet_jessica": 85,
+      "morties_lost": 32,
+      "steps_taken": 59,
+      "status_message": "This is why you don't freeze time, you guys. It's incredibly irresponsible."
+    },
+    {
+      "trip": 60,
+      "action": 2,
+      "predicted_probs": [
+        0.28769067337996657,
+        0.248977060923294,
+        0.7927574095897006
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 880,
+      "morties_on_planet_jessica": 88,
+      "morties_lost": 32,
+      "steps_taken": 60,
+      "status_message": "Listen Morty, I hate to break it to you, but what people call 'love' is just a chemical reaction."
+    },
+    {
+      "trip": 61,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.248977060923294,
+        0.8576937894527522
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 877,
+      "morties_on_planet_jessica": 91,
+      "morties_lost": 32,
+      "steps_taken": 61,
+      "status_message": "This is why you don't freeze time, you guys. It's incredibly irresponsible."
+    },
+    {
+      "trip": 62,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329397,
+        0.9154097557988381
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 874,
+      "morties_on_planet_jessica": 94,
+      "morties_lost": 32,
+      "steps_taken": 62,
+      "status_message": "That's planning for failure, Morty. Even dumber than regular planning."
+    },
+    {
+      "trip": 63,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329397,
+        0.8841387730600931
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 871,
+      "morties_on_planet_jessica": 97,
+      "morties_lost": 32,
+      "steps_taken": 63,
+      "status_message": "Nobody exists on purpose. Nobody belongs anywhere. We're all going to die. Come save some Morties."
+    },
+    {
+      "trip": 64,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329397,
+        0.9306417733007575
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 868,
+      "morties_on_planet_jessica": 100,
+      "morties_lost": 32,
+      "steps_taken": 64,
+      "status_message": "This is why you don't freeze time, you guys. It's incredibly irresponsible."
+    },
+    {
+      "trip": 65,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329397,
+        0.9079065327113686
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 865,
+      "morties_on_planet_jessica": 103,
+      "morties_lost": 32,
+      "steps_taken": 65,
+      "status_message": "Nobody exists on purpose. Nobody belongs anywhere. We're all going to die. Come save some Morties."
+    },
+    {
+      "trip": 66,
+      "action": 2,
+      "predicted_probs": [
+        0.28769067337996657,
+        0.248977060923294,
+        0.9033728751644
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 862,
+      "morties_on_planet_jessica": 106,
+      "morties_lost": 32,
+      "steps_taken": 66,
+      "status_message": "Get your sh*t together. Get it all together, and put it in a backpack."
+    },
+    {
+      "trip": 67,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329394,
+        0.9193894636125031
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 859,
+      "morties_on_planet_jessica": 109,
+      "morties_lost": 32,
+      "steps_taken": 67,
+      "status_message": "I'm not looking for judgement, just a yes or no. Can you save these Morties?"
+    },
+    {
+      "trip": 68,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799667,
+        0.24897706092329397,
+        0.9237258108252014
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 856,
+      "morties_on_planet_jessica": 112,
+      "morties_lost": 32,
+      "steps_taken": 68,
+      "status_message": "Nobody exists on purpose. Nobody belongs anywhere. We're all going to die. Come save some Morties."
+    },
+    {
+      "trip": 69,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329394,
+        0.9469782654700108
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 853,
+      "morties_on_planet_jessica": 115,
+      "morties_lost": 32,
+      "steps_taken": 69,
+      "status_message": "Listen Morty, I hate to break it to you, but what people call 'love' is just a chemical reaction."
+    },
+    {
+      "trip": 70,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.248977060923294,
+        0.9615503205638403
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 850,
+      "morties_on_planet_jessica": 118,
+      "morties_lost": 32,
+      "steps_taken": 70,
+      "status_message": "Get Schwifty!"
+    },
+    {
+      "trip": 71,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329397,
+        0.9319868475765363
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 847,
+      "morties_on_planet_jessica": 121,
+      "morties_lost": 32,
+      "steps_taken": 71,
+      "status_message": "Nobody exists on purpose. Nobody belongs anywhere. We're all going to die. Come save some Morties."
+    },
+    {
+      "trip": 72,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329397,
+        0.9047929623919725
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 844,
+      "morties_on_planet_jessica": 124,
+      "morties_lost": 32,
+      "steps_taken": 72,
+      "status_message": "Wubba lubba dub dub!"
+    },
+    {
+      "trip": 73,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329397,
+        0.9573841974222436
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 841,
+      "morties_on_planet_jessica": 127,
+      "morties_lost": 32,
+      "steps_taken": 73,
+      "status_message": "Don't break an arm jerking yourself off."
+    },
+    {
+      "trip": 74,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329394,
+        0.8788296465103633
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 838,
+      "morties_on_planet_jessica": 127,
+      "morties_lost": 35,
+      "steps_taken": 74,
+      "status_message": "I'm a scientist; because I invent, transform, create, and destroy for a living."
+    },
+    {
+      "trip": 75,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799665,
+        0.24897706092329397,
+        0.6549983923534025
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 835,
+      "morties_on_planet_jessica": 130,
+      "morties_lost": 35,
+      "steps_taken": 75,
+      "status_message": "Sometimes science is more art than science, Morty."
+    },
+    {
+      "trip": 76,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.248977060923294,
+        0.6340383462885261
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 832,
+      "morties_on_planet_jessica": 133,
+      "morties_lost": 35,
+      "steps_taken": 76,
+      "status_message": "Wubba lubba dub dub!"
+    },
+    {
+      "trip": 77,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329397,
+        0.5639608825397446
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 829,
+      "morties_on_planet_jessica": 136,
+      "morties_lost": 35,
+      "steps_taken": 77,
+      "status_message": "Sometimes science is more art than science, Morty."
+    },
+    {
+      "trip": 78,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329397,
+        0.6314138687024754
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 826,
+      "morties_on_planet_jessica": 139,
+      "morties_lost": 35,
+      "steps_taken": 78,
+      "status_message": "This is why you don't freeze time, you guys. It's incredibly irresponsible."
+    },
+    {
+      "trip": 79,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329389,
+        0.6935035147260368
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 823,
+      "morties_on_planet_jessica": 142,
+      "morties_lost": 35,
+      "steps_taken": 79,
+      "status_message": "You pass butter. Just kidding, you save Morties."
+    },
+    {
+      "trip": 80,
+      "action": 2,
+      "predicted_probs": [
+        0.28769067337996657,
+        0.248977060923294,
+        0.7132584229424903
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 820,
+      "morties_on_planet_jessica": 145,
+      "morties_lost": 35,
+      "steps_taken": 80,
+      "status_message": "Get your sh*t together. Get it all together, and put it in a backpack."
+    },
+    {
+      "trip": 81,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329394,
+        0.7058367740620727
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 817,
+      "morties_on_planet_jessica": 148,
+      "morties_lost": 35,
+      "steps_taken": 81,
+      "status_message": "I'm not looking for judgement, just a yes or no. Can you save these Morties?"
+    },
+    {
+      "trip": 82,
+      "action": 2,
+      "predicted_probs": [
+        0.28769067337996657,
+        0.24897706092329394,
+        0.7279227563084357
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 814,
+      "morties_on_planet_jessica": 151,
+      "morties_lost": 35,
+      "steps_taken": 82,
+      "status_message": "I'm not looking for judgement, just a yes or no. Can you save these Morties?"
+    },
+    {
+      "trip": 83,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799667,
+        0.248977060923294,
+        0.7575405809525063
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 811,
+      "morties_on_planet_jessica": 154,
+      "morties_lost": 35,
+      "steps_taken": 83,
+      "status_message": "Existence is pain to a Meeseeks... and also to Morties on the wrong planet."
+    },
+    {
+      "trip": 84,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329397,
+        0.7927574095897004
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 808,
+      "morties_on_planet_jessica": 157,
+      "morties_lost": 35,
+      "steps_taken": 84,
+      "status_message": "I'm a scientist; because I invent, transform, create, and destroy for a living."
+    },
+    {
+      "trip": 85,
+      "action": 2,
+      "predicted_probs": [
+        0.28769067337996657,
+        0.24897706092329397,
+        0.8576937894527522
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 805,
+      "morties_on_planet_jessica": 160,
+      "morties_lost": 35,
+      "steps_taken": 85,
+      "status_message": "Get Schwifty!"
+    },
+    {
+      "trip": 86,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329394,
+        0.9154097557988382
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 802,
+      "morties_on_planet_jessica": 163,
+      "morties_lost": 35,
+      "steps_taken": 86,
+      "status_message": "Your boos mean nothing, I've seen what makes you cheer!"
+    },
+    {
+      "trip": 87,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329397,
+        0.8841387730600933
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 799,
+      "morties_on_planet_jessica": 166,
+      "morties_lost": 35,
+      "steps_taken": 87,
+      "status_message": "Get Schwifty!"
+    },
+    {
+      "trip": 88,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799667,
+        0.24897706092329397,
+        0.9306417733007575
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 796,
+      "morties_on_planet_jessica": 169,
+      "morties_lost": 35,
+      "steps_taken": 88,
+      "status_message": "That's planning for failure, Morty. Even dumber than regular planning."
+    },
+    {
+      "trip": 89,
+      "action": 2,
+      "predicted_probs": [
+        0.28769067337996657,
+        0.24897706092329397,
+        0.9079065327113686
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 793,
+      "morties_on_planet_jessica": 172,
+      "morties_lost": 35,
+      "steps_taken": 89,
+      "status_message": "This is why you don't freeze time, you guys. It's incredibly irresponsible."
+    },
+    {
+      "trip": 90,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329397,
+        0.9033728751644
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 790,
+      "morties_on_planet_jessica": 175,
+      "morties_lost": 35,
+      "steps_taken": 90,
+      "status_message": "You pass butter. Just kidding, you save Morties."
+    },
+    {
+      "trip": 91,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329394,
+        0.9193894636125028
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 787,
+      "morties_on_planet_jessica": 178,
+      "morties_lost": 35,
+      "steps_taken": 91,
+      "status_message": "You pass butter. Just kidding, you save Morties."
+    },
+    {
+      "trip": 92,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329397,
+        0.9237258108252013
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 784,
+      "morties_on_planet_jessica": 181,
+      "morties_lost": 35,
+      "steps_taken": 92,
+      "status_message": "Get your sh*t together. Get it all together, and put it in a backpack."
+    },
+    {
+      "trip": 93,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799665,
+        0.24897706092329397,
+        0.9469782654700107
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 781,
+      "morties_on_planet_jessica": 184,
+      "morties_lost": 35,
+      "steps_taken": 93,
+      "status_message": "Don't break an arm jerking yourself off."
+    },
+    {
+      "trip": 94,
+      "action": 2,
+      "predicted_probs": [
+        0.28769067337996657,
+        0.24897706092329397,
+        0.9615503205638403
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 778,
+      "morties_on_planet_jessica": 187,
+      "morties_lost": 35,
+      "steps_taken": 94,
+      "status_message": "Get Schwifty!"
+    },
+    {
+      "trip": 95,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.248977060923294,
+        0.9319868475765364
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 775,
+      "morties_on_planet_jessica": 190,
+      "morties_lost": 35,
+      "steps_taken": 95,
+      "status_message": "That's planning for failure, Morty. Even dumber than regular planning."
+    },
+    {
+      "trip": 96,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799667,
+        0.24897706092329397,
+        0.9047929623919725
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 772,
+      "morties_on_planet_jessica": 193,
+      "morties_lost": 35,
+      "steps_taken": 96,
+      "status_message": "Get your sh*t together. Get it all together, and put it in a backpack."
+    },
+    {
+      "trip": 97,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.248977060923294,
+        0.9573841974222437
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 769,
+      "morties_on_planet_jessica": 196,
+      "morties_lost": 35,
+      "steps_taken": 97,
+      "status_message": "I'm not looking for judgement, just a yes or no. Can you save these Morties?"
+    },
+    {
+      "trip": 98,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.248977060923294,
+        0.8788296465103632
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 766,
+      "morties_on_planet_jessica": 199,
+      "morties_lost": 35,
+      "steps_taken": 98,
+      "status_message": "Get Schwifty!"
+    },
+    {
+      "trip": 99,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329397,
+        0.9395262360476956
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 763,
+      "morties_on_planet_jessica": 202,
+      "morties_lost": 35,
+      "steps_taken": 99,
+      "status_message": "Wubba lubba dub dub!"
+    },
+    {
+      "trip": 100,
+      "action": 2,
+      "predicted_probs": [
+        0.28769067337996657,
+        0.24897706092329397,
+        0.9179617922717835
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 760,
+      "morties_on_planet_jessica": 205,
+      "morties_lost": 35,
+      "steps_taken": 100,
+      "status_message": "I'm a scientist; because I invent, transform, create, and destroy for a living."
+    },
+    {
+      "trip": 101,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329397,
+        0.9093009771619935
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 757,
+      "morties_on_planet_jessica": 208,
+      "morties_lost": 35,
+      "steps_taken": 101,
+      "status_message": "Sometimes science is more art than science, Morty."
+    },
+    {
+      "trip": 102,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329397,
+        0.8507180704618491
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 754,
+      "morties_on_planet_jessica": 211,
+      "morties_lost": 35,
+      "steps_taken": 102,
+      "status_message": "You pass butter. Just kidding, you save Morties."
+    },
+    {
+      "trip": 103,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329394,
+        0.92073946200296
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 751,
+      "morties_on_planet_jessica": 214,
+      "morties_lost": 35,
+      "steps_taken": 103,
+      "status_message": "Wubba lubba dub dub!"
+    },
+    {
+      "trip": 104,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329397,
+        0.9323389349772222
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 748,
+      "morties_on_planet_jessica": 217,
+      "morties_lost": 35,
+      "steps_taken": 104,
+      "status_message": "Keep going! Or don't. I'm not your dad."
+    },
+    {
+      "trip": 105,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329394,
+        0.8851615099952584
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 745,
+      "morties_on_planet_jessica": 220,
+      "morties_lost": 35,
+      "steps_taken": 105,
+      "status_message": "Existence is pain to a Meeseeks... and also to Morties on the wrong planet."
+    },
+    {
+      "trip": 106,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329394,
+        0.896648662256724
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 742,
+      "morties_on_planet_jessica": 223,
+      "morties_lost": 35,
+      "steps_taken": 106,
+      "status_message": "I'm a scientist; because I invent, transform, create, and destroy for a living."
+    },
+    {
+      "trip": 107,
+      "action": 2,
+      "predicted_probs": [
+        0.28769067337996657,
+        0.24897706092329397,
+        0.8963225998555397
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 739,
+      "morties_on_planet_jessica": 226,
+      "morties_lost": 35,
+      "steps_taken": 107,
+      "status_message": "Your boos mean nothing, I've seen what makes you cheer!"
+    },
+    {
+      "trip": 108,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329397,
+        0.8976155023188394
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 736,
+      "morties_on_planet_jessica": 229,
+      "morties_lost": 35,
+      "steps_taken": 108,
+      "status_message": "Get your sh*t together. Get it all together, and put it in a backpack."
+    },
+    {
+      "trip": 109,
+      "action": 2,
+      "predicted_probs": [
+        0.28769067337996657,
+        0.24897706092329394,
+        0.903207973340112
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 733,
+      "morties_on_planet_jessica": 232,
+      "morties_lost": 35,
+      "steps_taken": 109,
+      "status_message": "Get your sh*t together. Get it all together, and put it in a backpack."
+    },
+    {
+      "trip": 110,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329394,
+        0.916758951798451
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 730,
+      "morties_on_planet_jessica": 235,
+      "morties_lost": 35,
+      "steps_taken": 110,
+      "status_message": "Wubba lubba dub dub!"
+    },
+    {
+      "trip": 111,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.248977060923294,
+        0.8375400320231497
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 727,
+      "morties_on_planet_jessica": 238,
+      "morties_lost": 35,
+      "steps_taken": 111,
+      "status_message": "Your boos mean nothing, I've seen what makes you cheer!"
+    },
+    {
+      "trip": 112,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329397,
+        0.9084449525369351
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 724,
+      "morties_on_planet_jessica": 241,
+      "morties_lost": 35,
+      "steps_taken": 112,
+      "status_message": "Listen Morty, I hate to break it to you, but what people call 'love' is just a chemical reaction."
+    },
+    {
+      "trip": 113,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329394,
+        0.8485403557724951
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 721,
+      "morties_on_planet_jessica": 244,
+      "morties_lost": 35,
+      "steps_taken": 113,
+      "status_message": "Nobody exists on purpose. Nobody belongs anywhere. We're all going to die. Come save some Morties."
+    },
+    {
+      "trip": 114,
+      "action": 2,
+      "predicted_probs": [
+        0.28769067337996657,
+        0.24897706092329397,
+        0.9390204967019004
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 718,
+      "morties_on_planet_jessica": 247,
+      "morties_lost": 35,
+      "steps_taken": 114,
+      "status_message": "Don't break an arm jerking yourself off."
+    },
+    {
+      "trip": 115,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329394,
+        0.8212789599948871
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 715,
+      "morties_on_planet_jessica": 250,
+      "morties_lost": 35,
+      "steps_taken": 115,
+      "status_message": "You pass butter. Just kidding, you save Morties."
+    },
+    {
+      "trip": 116,
+      "action": 2,
+      "predicted_probs": [
+        0.28769067337996657,
+        0.24897706092329397,
+        0.8897860558137096
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 712,
+      "morties_on_planet_jessica": 253,
+      "morties_lost": 35,
+      "steps_taken": 116,
+      "status_message": "Listen Morty, I hate to break it to you, but what people call 'love' is just a chemical reaction."
+    },
+    {
+      "trip": 117,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.248977060923294,
+        0.9148910196632848
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 709,
+      "morties_on_planet_jessica": 253,
+      "morties_lost": 38,
+      "steps_taken": 117,
+      "status_message": "I'm not looking for judgement, just a yes or no. Can you save these Morties?"
+    },
+    {
+      "trip": 118,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329397,
+        0.6549983923534021
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 706,
+      "morties_on_planet_jessica": 256,
+      "morties_lost": 38,
+      "steps_taken": 118,
+      "status_message": "This is why you don't freeze time, you guys. It's incredibly irresponsible."
+    },
+    {
+      "trip": 119,
+      "action": 2,
+      "predicted_probs": [
+        0.28769067337996657,
+        0.24897706092329397,
+        0.6340383462885262
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 703,
+      "morties_on_planet_jessica": 259,
+      "morties_lost": 38,
+      "steps_taken": 119,
+      "status_message": "Get your sh*t together. Get it all together, and put it in a backpack."
+    },
+    {
+      "trip": 120,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.248977060923294,
+        0.5639608825397447
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 700,
+      "morties_on_planet_jessica": 262,
+      "morties_lost": 38,
+      "steps_taken": 120,
+      "status_message": "Keep going! Or don't. I'm not your dad."
+    },
+    {
+      "trip": 121,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329394,
+        0.6314138687024754
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 697,
+      "morties_on_planet_jessica": 262,
+      "morties_lost": 41,
+      "steps_taken": 121,
+      "status_message": "Quantum carburetor? Jesus, Morty. You can't just add a sci-fi word to a car word."
+    },
+    {
+      "trip": 122,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.248977060923294,
+        0.6611667242077786
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 694,
+      "morties_on_planet_jessica": 262,
+      "morties_lost": 44,
+      "steps_taken": 122,
+      "status_message": "You pass butter. Just kidding, you save Morties."
+    },
+    {
+      "trip": 123,
+      "action": 2,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.248977060923294,
+        0.5849706462637966
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 691,
+      "morties_on_planet_jessica": 262,
+      "morties_lost": 47,
+      "steps_taken": 123,
+      "status_message": "Don't break an arm jerking yourself off."
+    },
+    {
+      "trip": 124,
+      "action": 0,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.24897706092329397,
+        0.24649286920562408
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 688,
+      "morties_on_planet_jessica": 262,
+      "morties_lost": 50,
+      "steps_taken": 124,
+      "status_message": "Don't break an arm jerking yourself off."
+    },
+    {
+      "trip": 125,
+      "action": 0,
+      "predicted_probs": [
+        0.35563063987573634,
+        0.24897706092329397,
+        0.24649286920562408
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 685,
+      "morties_on_planet_jessica": 262,
+      "morties_lost": 53,
+      "steps_taken": 125,
+      "status_message": "This is why you don't freeze time, you guys. It's incredibly irresponsible."
+    },
+    {
+      "trip": 126,
+      "action": 0,
+      "predicted_probs": [
+        0.2542585833915378,
+        0.248977060923294,
+        0.24649286920562413
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 682,
+      "morties_on_planet_jessica": 262,
+      "morties_lost": 56,
+      "steps_taken": 126,
+      "status_message": "Existence is pain to a Meeseeks... and also to Morties on the wrong planet."
+    },
+    {
+      "trip": 127,
+      "action": 0,
+      "predicted_probs": [
+        0.34389628828403995,
+        0.248977060923294,
+        0.2464928692056241
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 679,
+      "morties_on_planet_jessica": 262,
+      "morties_lost": 59,
+      "steps_taken": 127,
+      "status_message": "I'm not looking for judgement, just a yes or no. Can you save these Morties?"
+    },
+    {
+      "trip": 128,
+      "action": 0,
+      "predicted_probs": [
+        0.3115137307533593,
+        0.24897706092329394,
+        0.2464928692056241
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 676,
+      "morties_on_planet_jessica": 265,
+      "morties_lost": 59,
+      "steps_taken": 128,
+      "status_message": "This is why you don't freeze time, you guys. It's incredibly irresponsible."
+    },
+    {
+      "trip": 129,
+      "action": 0,
+      "predicted_probs": [
+        0.4336137042171571,
+        0.24897706092329397,
+        0.24649286920562408
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 673,
+      "morties_on_planet_jessica": 268,
+      "morties_lost": 59,
+      "steps_taken": 129,
+      "status_message": "Get your sh*t together. Get it all together, and put it in a backpack."
+    },
+    {
+      "trip": 130,
+      "action": 0,
+      "predicted_probs": [
+        0.4066773977097881,
+        0.24897706092329397,
+        0.24649286920562408
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 670,
+      "morties_on_planet_jessica": 271,
+      "morties_lost": 59,
+      "steps_taken": 130,
+      "status_message": "I'm a scientist; because I invent, transform, create, and destroy for a living."
+    },
+    {
+      "trip": 131,
+      "action": 0,
+      "predicted_probs": [
+        0.4608786535431262,
+        0.24897706092329389,
+        0.24649286920562408
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 667,
+      "morties_on_planet_jessica": 274,
+      "morties_lost": 59,
+      "steps_taken": 131,
+      "status_message": "That's planning for failure, Morty. Even dumber than regular planning."
+    },
+    {
+      "trip": 132,
+      "action": 0,
+      "predicted_probs": [
+        0.45934373692104197,
+        0.24897706092329397,
+        0.24649286920562408
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 664,
+      "morties_on_planet_jessica": 274,
+      "morties_lost": 62,
+      "steps_taken": 132,
+      "status_message": "Keep going! Or don't. I'm not your dad."
+    },
+    {
+      "trip": 133,
+      "action": 0,
+      "predicted_probs": [
+        0.5116304799498999,
+        0.24897706092329394,
+        0.24649286920562408
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 661,
+      "morties_on_planet_jessica": 274,
+      "morties_lost": 65,
+      "steps_taken": 133,
+      "status_message": "To live is to risk it all, otherwise you're just an inert chunk of randomly assembled molecules."
+    },
+    {
+      "trip": 134,
+      "action": 0,
+      "predicted_probs": [
+        0.25425858339153784,
+        0.248977060923294,
+        0.24649286920562408
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 658,
+      "morties_on_planet_jessica": 277,
+      "morties_lost": 65,
+      "steps_taken": 134,
+      "status_message": "I'm not looking for judgement, just a yes or no. Can you save these Morties?"
+    },
+    {
+      "trip": 135,
+      "action": 0,
+      "predicted_probs": [
+        0.34283148964829097,
+        0.24897706092329394,
+        0.2464928692056241
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 655,
+      "morties_on_planet_jessica": 277,
+      "morties_lost": 68,
+      "steps_taken": 135,
+      "status_message": "Nobody exists on purpose. Nobody belongs anywhere. We're all going to die. Come save some Morties."
+    },
+    {
+      "trip": 136,
+      "action": 0,
+      "predicted_probs": [
+        0.6429624520939143,
+        0.24897706092329394,
+        0.24649286920562402
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 652,
+      "morties_on_planet_jessica": 277,
+      "morties_lost": 71,
+      "steps_taken": 136,
+      "status_message": "This is why you don't freeze time, you guys. It's incredibly irresponsible."
+    },
+    {
+      "trip": 137,
+      "action": 0,
+      "predicted_probs": [
+        0.37558834203242575,
+        0.24897706092329397,
+        0.2464928692056241
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 649,
+      "morties_on_planet_jessica": 280,
+      "morties_lost": 71,
+      "steps_taken": 137,
+      "status_message": "Nobody exists on purpose. Nobody belongs anywhere. We're all going to die. Come save some Morties."
+    },
+    {
+      "trip": 138,
+      "action": 0,
+      "predicted_probs": [
+        0.2842295012785312,
+        0.24897706092329397,
+        0.24649286920562402
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 646,
+      "morties_on_planet_jessica": 283,
+      "morties_lost": 71,
+      "steps_taken": 138,
+      "status_message": "Wubba lubba dub dub!"
+    },
+    {
+      "trip": 139,
+      "action": 0,
+      "predicted_probs": [
+        0.40667739770978834,
+        0.24897706092329394,
+        0.2464928692056241
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 643,
+      "morties_on_planet_jessica": 283,
+      "morties_lost": 74,
+      "steps_taken": 139,
+      "status_message": "Sometimes science is more art than science, Morty."
+    },
+    {
+      "trip": 140,
+      "action": 0,
+      "predicted_probs": [
+        0.5821824153687873,
+        0.248977060923294,
+        0.2464928692056241
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 640,
+      "morties_on_planet_jessica": 286,
+      "morties_lost": 74,
+      "steps_taken": 140,
+      "status_message": "I'm not looking for judgement, just a yes or no. Can you save these Morties?"
+    },
+    {
+      "trip": 141,
+      "action": 1,
+      "predicted_probs": [
+        0.22225993143315126,
+        0.24897706092329397,
+        0.24649286920562408
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 637,
+      "morties_on_planet_jessica": 289,
+      "morties_lost": 74,
+      "steps_taken": 141,
+      "status_message": "Don't break an arm jerking yourself off."
+    },
+    {
+      "trip": 142,
+      "action": 1,
+      "predicted_probs": [
+        0.22225993143315126,
+        0.4723773650661618,
+        0.24649286920562408
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 634,
+      "morties_on_planet_jessica": 289,
+      "morties_lost": 77,
+      "steps_taken": 142,
+      "status_message": "Nobody exists on purpose. Nobody belongs anywhere. We're all going to die. Come save some Morties."
+    },
+    {
+      "trip": 143,
+      "action": 1,
+      "predicted_probs": [
+        0.2222599314331513,
+        0.7041935166160327,
+        0.24649286920562408
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 631,
+      "morties_on_planet_jessica": 292,
+      "morties_lost": 77,
+      "steps_taken": 143,
+      "status_message": "Get your sh*t together. Get it all together, and put it in a backpack."
+    },
+    {
+      "trip": 144,
+      "action": 1,
+      "predicted_probs": [
+        0.22225993143315134,
+        0.4751434549118045,
+        0.2464928692056241
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 628,
+      "morties_on_planet_jessica": 292,
+      "morties_lost": 80,
+      "steps_taken": 144,
+      "status_message": "Listen Morty, I hate to break it to you, but what people call 'love' is just a chemical reaction."
+    },
+    {
+      "trip": 145,
+      "action": 1,
+      "predicted_probs": [
+        0.2222599314331513,
+        0.7211364273111694,
+        0.2464928692056241
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 625,
+      "morties_on_planet_jessica": 295,
+      "morties_lost": 80,
+      "steps_taken": 145,
+      "status_message": "Don't break an arm jerking yourself off."
+    },
+    {
+      "trip": 146,
+      "action": 1,
+      "predicted_probs": [
+        0.22225993143315134,
+        0.47514345491180454,
+        0.2464928692056241
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 622,
+      "morties_on_planet_jessica": 298,
+      "morties_lost": 80,
+      "steps_taken": 146,
+      "status_message": "I'm a scientist; because I invent, transform, create, and destroy for a living."
+    },
+    {
+      "trip": 147,
+      "action": 1,
+      "predicted_probs": [
+        0.2222599314331513,
+        0.4699075915412193,
+        0.24649286920562408
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 619,
+      "morties_on_planet_jessica": 301,
+      "morties_lost": 80,
+      "steps_taken": 147,
+      "status_message": "Quantum carburetor? Jesus, Morty. You can't just add a sci-fi word to a car word."
+    },
+    {
+      "trip": 148,
+      "action": 1,
+      "predicted_probs": [
+        0.22225993143315126,
+        0.7280735512459002,
+        0.24649286920562408
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 616,
+      "morties_on_planet_jessica": 304,
+      "morties_lost": 80,
+      "steps_taken": 148,
+      "status_message": "Sometimes science is more art than science, Morty."
+    },
+    {
+      "trip": 149,
+      "action": 1,
+      "predicted_probs": [
+        0.22225993143315118,
+        0.630156474398132,
+        0.24649286920562402
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 613,
+      "morties_on_planet_jessica": 307,
+      "morties_lost": 80,
+      "steps_taken": 149,
+      "status_message": "I'm not looking for judgement, just a yes or no. Can you save these Morties?"
+    },
+    {
+      "trip": 150,
+      "action": 1,
+      "predicted_probs": [
+        0.22225993143315126,
+        0.6265232888468282,
+        0.2464928692056241
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 610,
+      "morties_on_planet_jessica": 310,
+      "morties_lost": 80,
+      "steps_taken": 150,
+      "status_message": "Get Schwifty!"
+    },
+    {
+      "trip": 151,
+      "action": 1,
+      "predicted_probs": [
+        0.22225993143315123,
+        0.6711672845156283,
+        0.24649286920562408
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 607,
+      "morties_on_planet_jessica": 313,
+      "morties_lost": 80,
+      "steps_taken": 151,
+      "status_message": "To live is to risk it all, otherwise you're just an inert chunk of randomly assembled molecules."
+    },
+    {
+      "trip": 152,
+      "action": 1,
+      "predicted_probs": [
+        0.22225993143315134,
+        0.5004230281469978,
+        0.2464928692056241
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 604,
+      "morties_on_planet_jessica": 316,
+      "morties_lost": 80,
+      "steps_taken": 152,
+      "status_message": "That's planning for failure, Morty. Even dumber than regular planning."
+    },
+    {
+      "trip": 153,
+      "action": 1,
+      "predicted_probs": [
+        0.2222599314331513,
+        0.42646022750116713,
+        0.2464928692056241
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 601,
+      "morties_on_planet_jessica": 316,
+      "morties_lost": 83,
+      "steps_taken": 153,
+      "status_message": "That's planning for failure, Morty. Even dumber than regular planning."
+    },
+    {
+      "trip": 154,
+      "action": 1,
+      "predicted_probs": [
+        0.22225993143315126,
+        0.6977893101099838,
+        0.24649286920562408
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 598,
+      "morties_on_planet_jessica": 319,
+      "morties_lost": 83,
+      "steps_taken": 154,
+      "status_message": "Get your sh*t together. Get it all together, and put it in a backpack."
+    },
+    {
+      "trip": 155,
+      "action": 1,
+      "predicted_probs": [
+        0.2222599314331513,
+        0.656798005372655,
+        0.2464928692056241
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 595,
+      "morties_on_planet_jessica": 319,
+      "morties_lost": 86,
+      "steps_taken": 155,
+      "status_message": "You pass butter. Just kidding, you save Morties."
+    },
+    {
+      "trip": 156,
+      "action": 1,
+      "predicted_probs": [
+        0.22225993143315134,
+        0.6334206007944103,
+        0.2464928692056241
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 592,
+      "morties_on_planet_jessica": 322,
+      "morties_lost": 86,
+      "steps_taken": 156,
+      "status_message": "Your boos mean nothing, I've seen what makes you cheer!"
+    },
+    {
+      "trip": 157,
+      "action": 1,
+      "predicted_probs": [
+        0.22225993143315126,
+        0.461115419637655,
+        0.24649286920562408
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 589,
+      "morties_on_planet_jessica": 322,
+      "morties_lost": 89,
+      "steps_taken": 157,
+      "status_message": "Get your sh*t together. Get it all together, and put it in a backpack."
+    },
+    {
+      "trip": 158,
+      "action": 1,
+      "predicted_probs": [
+        0.22225993143315123,
+        0.4095417726879226,
+        0.2464928692056241
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 586,
+      "morties_on_planet_jessica": 322,
+      "morties_lost": 92,
+      "steps_taken": 158,
+      "status_message": "I'm a scientist; because I invent, transform, create, and destroy for a living."
+    },
+    {
+      "trip": 159,
+      "action": 1,
+      "predicted_probs": [
+        0.22225993143315123,
+        0.538303823772607,
+        0.24649286920562408
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 583,
+      "morties_on_planet_jessica": 322,
+      "morties_lost": 95,
+      "steps_taken": 159,
+      "status_message": "Listen Morty, I hate to break it to you, but what people call 'love' is just a chemical reaction."
+    },
+    {
+      "trip": 160,
+      "action": 1,
+      "predicted_probs": [
+        0.22225993143315123,
+        0.48440291036108774,
+        0.24649286920562408
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 580,
+      "morties_on_planet_jessica": 322,
+      "morties_lost": 98,
+      "steps_taken": 160,
+      "status_message": "Get your sh*t together. Get it all together, and put it in a backpack."
+    },
+    {
+      "trip": 161,
+      "action": 1,
+      "predicted_probs": [
+        0.2222599314331513,
+        0.3766509727935283,
+        0.2464928692056241
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 577,
+      "morties_on_planet_jessica": 325,
+      "morties_lost": 98,
+      "steps_taken": 161,
+      "status_message": "Nobody exists on purpose. Nobody belongs anywhere. We're all going to die. Come save some Morties."
+    },
+    {
+      "trip": 162,
+      "action": 1,
+      "predicted_probs": [
+        0.22225993143315126,
+        0.42496469220134875,
+        0.24649286920562408
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 574,
+      "morties_on_planet_jessica": 325,
+      "morties_lost": 101,
+      "steps_taken": 162,
+      "status_message": "I'm not looking for judgement, just a yes or no. Can you save these Morties?"
+    },
+    {
+      "trip": 163,
+      "action": 1,
+      "predicted_probs": [
+        0.2222599314331513,
+        0.704193516616033,
+        0.24649286920562408
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 571,
+      "morties_on_planet_jessica": 325,
+      "morties_lost": 104,
+      "steps_taken": 163,
+      "status_message": "Nobody exists on purpose. Nobody belongs anywhere. We're all going to die. Come save some Morties."
+    },
+    {
+      "trip": 164,
+      "action": 1,
+      "predicted_probs": [
+        0.22225993143315126,
+        0.516956286977037,
+        0.24649286920562408
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 568,
+      "morties_on_planet_jessica": 325,
+      "morties_lost": 107,
+      "steps_taken": 164,
+      "status_message": "Wubba lubba dub dub!"
+    },
+    {
+      "trip": 165,
+      "action": 1,
+      "predicted_probs": [
+        0.22225993143315126,
+        0.3811350855644245,
+        0.24649286920562408
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 565,
+      "morties_on_planet_jessica": 325,
+      "morties_lost": 110,
+      "steps_taken": 165,
+      "status_message": "Your boos mean nothing, I've seen what makes you cheer!"
+    },
+    {
+      "trip": 166,
+      "action": 1,
+      "predicted_probs": [
+        0.22225993143315123,
+        0.6057053004078248,
+        0.24649286920562408
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 562,
+      "morties_on_planet_jessica": 328,
+      "morties_lost": 110,
+      "steps_taken": 166,
+      "status_message": "Wubba lubba dub dub!"
+    },
+    {
+      "trip": 167,
+      "action": 1,
+      "predicted_probs": [
+        0.22225993143315126,
+        0.5257863948086134,
+        0.2464928692056241
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 559,
+      "morties_on_planet_jessica": 331,
+      "morties_lost": 110,
+      "steps_taken": 167,
+      "status_message": "Get your sh*t together. Get it all together, and put it in a backpack."
+    },
+    {
+      "trip": 168,
+      "action": 1,
+      "predicted_probs": [
+        0.22225993143315126,
+        0.6532556749744286,
+        0.24649286920562413
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 556,
+      "morties_on_planet_jessica": 334,
+      "morties_lost": 110,
+      "steps_taken": 168,
+      "status_message": "You pass butter. Just kidding, you save Morties."
+    },
+    {
+      "trip": 169,
+      "action": 1,
+      "predicted_probs": [
+        0.22225993143315126,
+        0.7256089890578603,
+        0.2464928692056241
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 553,
+      "morties_on_planet_jessica": 337,
+      "morties_lost": 110,
+      "steps_taken": 169,
+      "status_message": "Nobody exists on purpose. Nobody belongs anywhere. We're all going to die. Come save some Morties."
+    },
+    {
+      "trip": 170,
+      "action": 1,
+      "predicted_probs": [
+        0.22225993143315123,
+        0.6526419358216221,
+        0.2464928692056241
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 550,
+      "morties_on_planet_jessica": 337,
+      "morties_lost": 113,
+      "steps_taken": 170,
+      "status_message": "Get Schwifty!"
+    },
+    {
+      "trip": 171,
+      "action": 1,
+      "predicted_probs": [
+        0.2222599314331513,
+        0.582764748428312,
+        0.2464928692056241
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 547,
+      "morties_on_planet_jessica": 340,
+      "morties_lost": 113,
+      "steps_taken": 171,
+      "status_message": "Get your sh*t together. Get it all together, and put it in a backpack."
+    },
+    {
+      "trip": 172,
+      "action": 1,
+      "predicted_probs": [
+        0.22225993143315126,
+        0.2887006954714564,
+        0.24649286920562402
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 544,
+      "morties_on_planet_jessica": 343,
+      "morties_lost": 113,
+      "steps_taken": 172,
+      "status_message": "Quantum carburetor? Jesus, Morty. You can't just add a sci-fi word to a car word."
+    },
+    {
+      "trip": 173,
+      "action": 1,
+      "predicted_probs": [
+        0.2222599314331513,
+        0.519051064585192,
+        0.2464928692056241
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 541,
+      "morties_on_planet_jessica": 346,
+      "morties_lost": 113,
+      "steps_taken": 173,
+      "status_message": "Get your sh*t together. Get it all together, and put it in a backpack."
+    },
+    {
+      "trip": 174,
+      "action": 1,
+      "predicted_probs": [
+        0.22225993143315123,
+        0.6360791439306975,
+        0.24649286920562408
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 538,
+      "morties_on_planet_jessica": 346,
+      "morties_lost": 116,
+      "steps_taken": 174,
+      "status_message": "That's planning for failure, Morty. Even dumber than regular planning."
+    },
+    {
+      "trip": 175,
+      "action": 1,
+      "predicted_probs": [
+        0.22225993143315126,
+        0.4712384410567592,
+        0.24649286920562408
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 535,
+      "morties_on_planet_jessica": 349,
+      "morties_lost": 116,
+      "steps_taken": 175,
+      "status_message": "Don't break an arm jerking yourself off."
+    },
+    {
+      "trip": 176,
+      "action": 1,
+      "predicted_probs": [
+        0.22225993143315126,
+        0.48196977919235506,
+        0.2464928692056241
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 532,
+      "morties_on_planet_jessica": 349,
+      "morties_lost": 119,
+      "steps_taken": 176,
+      "status_message": "You pass butter. Just kidding, you save Morties."
+    },
+    {
+      "trip": 177,
+      "action": 1,
+      "predicted_probs": [
+        0.22225993143315126,
+        0.40954177268792225,
+        0.24649286920562408
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 529,
+      "morties_on_planet_jessica": 349,
+      "morties_lost": 122,
+      "steps_taken": 177,
+      "status_message": "Sometimes science is more art than science, Morty."
+    },
+    {
+      "trip": 178,
+      "action": 1,
+      "predicted_probs": [
+        0.22225993143315126,
+        0.5383038237726069,
+        0.2464928692056241
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 526,
+      "morties_on_planet_jessica": 349,
+      "morties_lost": 125,
+      "steps_taken": 178,
+      "status_message": "Sometimes science is more art than science, Morty."
+    },
+    {
+      "trip": 179,
+      "action": 1,
+      "predicted_probs": [
+        0.22225993143315118,
+        0.4844029103610877,
+        0.24649286920562402
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 523,
+      "morties_on_planet_jessica": 349,
+      "morties_lost": 128,
+      "steps_taken": 179,
+      "status_message": "You pass butter. Just kidding, you save Morties."
+    },
+    {
+      "trip": 180,
+      "action": 1,
+      "predicted_probs": [
+        0.2222599314331513,
+        0.37665097279352844,
+        0.2464928692056241
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 520,
+      "morties_on_planet_jessica": 349,
+      "morties_lost": 131,
+      "steps_taken": 180,
+      "status_message": "To live is to risk it all, otherwise you're just an inert chunk of randomly assembled molecules."
+    },
+    {
+      "trip": 181,
+      "action": 1,
+      "predicted_probs": [
+        0.22225993143315123,
+        0.32319418775174874,
+        0.24649286920562408
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 517,
+      "morties_on_planet_jessica": 349,
+      "morties_lost": 134,
+      "steps_taken": 181,
+      "status_message": "Existence is pain to a Meeseeks... and also to Morties on the wrong planet."
+    },
+    {
+      "trip": 182,
+      "action": 1,
+      "predicted_probs": [
+        0.2222599314331513,
+        0.289557376110041,
+        0.2464928692056241
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 514,
+      "morties_on_planet_jessica": 352,
+      "morties_lost": 134,
+      "steps_taken": 182,
+      "status_message": "You pass butter. Just kidding, you save Morties."
+    },
+    {
+      "trip": 183,
+      "action": 1,
+      "predicted_probs": [
+        0.22225993143315126,
+        0.4723773650661618,
+        0.24649286920562408
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 511,
+      "morties_on_planet_jessica": 352,
+      "morties_lost": 137,
+      "steps_taken": 183,
+      "status_message": "Nobody exists on purpose. Nobody belongs anywhere. We're all going to die. Come save some Morties."
+    },
+    {
+      "trip": 184,
+      "action": 1,
+      "predicted_probs": [
+        0.22225993143315126,
+        0.8134569097121811,
+        0.2464928692056241
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 508,
+      "morties_on_planet_jessica": 355,
+      "morties_lost": 137,
+      "steps_taken": 184,
+      "status_message": "Quantum carburetor? Jesus, Morty. You can't just add a sci-fi word to a car word."
+    },
+    {
+      "trip": 185,
+      "action": 1,
+      "predicted_probs": [
+        0.22225993143315126,
+        0.47514345491180465,
+        0.24649286920562402
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 505,
+      "morties_on_planet_jessica": 358,
+      "morties_lost": 137,
+      "steps_taken": 185,
+      "status_message": "I'm a scientist; because I invent, transform, create, and destroy for a living."
+    },
+    {
+      "trip": 186,
+      "action": 1,
+      "predicted_probs": [
+        0.2222599314331513,
+        0.5380727897616042,
+        0.2464928692056241
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 502,
+      "morties_on_planet_jessica": 361,
+      "morties_lost": 137,
+      "steps_taken": 186,
+      "status_message": "Your boos mean nothing, I've seen what makes you cheer!"
+    },
+    {
+      "trip": 187,
+      "action": 1,
+      "predicted_probs": [
+        0.22225993143315126,
+        0.7256089890578603,
+        0.24649286920562408
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 499,
+      "morties_on_planet_jessica": 364,
+      "morties_lost": 137,
+      "steps_taken": 187,
+      "status_message": "That's planning for failure, Morty. Even dumber than regular planning."
+    },
+    {
+      "trip": 188,
+      "action": 1,
+      "predicted_probs": [
+        0.22225993143315123,
+        0.6526419358216221,
+        0.24649286920562408
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 496,
+      "morties_on_planet_jessica": 367,
+      "morties_lost": 137,
+      "steps_taken": 188,
+      "status_message": "Don't break an arm jerking yourself off."
+    },
+    {
+      "trip": 189,
+      "action": 1,
+      "predicted_probs": [
+        0.22225993143315118,
+        0.5577778205633784,
+        0.24649286920562408
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 493,
+      "morties_on_planet_jessica": 370,
+      "morties_lost": 137,
+      "steps_taken": 189,
+      "status_message": "This is why you don't freeze time, you guys. It's incredibly irresponsible."
+    },
+    {
+      "trip": 190,
+      "action": 1,
+      "predicted_probs": [
+        0.22225993143315126,
+        0.5000685421399883,
+        0.24649286920562408
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 490,
+      "morties_on_planet_jessica": 373,
+      "morties_lost": 137,
+      "steps_taken": 190,
+      "status_message": "Nobody exists on purpose. Nobody belongs anywhere. We're all going to die. Come save some Morties."
+    },
+    {
+      "trip": 191,
+      "action": 1,
+      "predicted_probs": [
+        0.22225993143315134,
+        0.5004230281469977,
+        0.2464928692056241
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 487,
+      "morties_on_planet_jessica": 376,
+      "morties_lost": 137,
+      "steps_taken": 191,
+      "status_message": "Get Schwifty!"
+    },
+    {
+      "trip": 192,
+      "action": 1,
+      "predicted_probs": [
+        0.2222599314331513,
+        0.426460227501167,
+        0.24649286920562413
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 484,
+      "morties_on_planet_jessica": 376,
+      "morties_lost": 140,
+      "steps_taken": 192,
+      "status_message": "I'm not looking for judgement, just a yes or no. Can you save these Morties?"
+    },
+    {
+      "trip": 193,
+      "action": 1,
+      "predicted_probs": [
+        0.22225993143315126,
+        0.6977893101099838,
+        0.24649286920562408
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 481,
+      "morties_on_planet_jessica": 376,
+      "morties_lost": 143,
+      "steps_taken": 193,
+      "status_message": "That's planning for failure, Morty. Even dumber than regular planning."
+    },
+    {
+      "trip": 194,
+      "action": 1,
+      "predicted_probs": [
+        0.22225993143315126,
+        0.4626365626823689,
+        0.24649286920562408
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 478,
+      "morties_on_planet_jessica": 376,
+      "morties_lost": 146,
+      "steps_taken": 194,
+      "status_message": "Wubba lubba dub dub!"
+    },
+    {
+      "trip": 195,
+      "action": 1,
+      "predicted_probs": [
+        0.22225993143315115,
+        0.42317006656605083,
+        0.2464928692056241
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 475,
+      "morties_on_planet_jessica": 376,
+      "morties_lost": 149,
+      "steps_taken": 195,
+      "status_message": "Get your sh*t together. Get it all together, and put it in a backpack."
+    },
+    {
+      "trip": 196,
+      "action": 1,
+      "predicted_probs": [
+        0.22225993143315123,
+        0.39265286621013457,
+        0.24649286920562402
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 472,
+      "morties_on_planet_jessica": 376,
+      "morties_lost": 152,
+      "steps_taken": 196,
+      "status_message": "You pass butter. Just kidding, you save Morties."
+    },
+    {
+      "trip": 197,
+      "action": 1,
+      "predicted_probs": [
+        0.22225993143315123,
+        0.29710940520243584,
+        0.24649286920562402
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 469,
+      "morties_on_planet_jessica": 376,
+      "morties_lost": 155,
+      "steps_taken": 197,
+      "status_message": "Don't break an arm jerking yourself off."
+    },
+    {
+      "trip": 198,
+      "action": 1,
+      "predicted_probs": [
+        0.22225993143315126,
+        0.45532422111938275,
+        0.24649286920562408
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 466,
+      "morties_on_planet_jessica": 376,
+      "morties_lost": 158,
+      "steps_taken": 198,
+      "status_message": "Get your sh*t together. Get it all together, and put it in a backpack."
+    },
+    {
+      "trip": 199,
+      "action": 2,
+      "predicted_probs": [
+        0.22225993143315126,
+        0.18752427891636014,
+        0.24649286920562408
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 463,
+      "morties_on_planet_jessica": 376,
+      "morties_lost": 161,
+      "steps_taken": 199,
+      "status_message": "Keep going! Or don't. I'm not your dad."
+    },
+    {
+      "trip": 200,
+      "action": 0,
+      "predicted_probs": [
+        0.22225993143315126,
+        0.18752427891636014,
+        0.16239017418699364
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 460,
+      "morties_on_planet_jessica": 379,
+      "morties_lost": 161,
+      "steps_taken": 200,
+      "status_message": "Sometimes science is more art than science, Morty."
+    },
+    {
+      "trip": 201,
+      "action": 0,
+      "predicted_probs": [
+        0.4336962651560626,
+        0.18752427891636012,
+        0.1623901741869937
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 457,
+      "morties_on_planet_jessica": 382,
+      "morties_lost": 161,
+      "steps_taken": 201,
+      "status_message": "This is why you don't freeze time, you guys. It's incredibly irresponsible."
+    },
+    {
+      "trip": 202,
+      "action": 0,
+      "predicted_probs": [
+        0.4608786535431262,
+        0.18752427891636014,
+        0.16239017418699364
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 454,
+      "morties_on_planet_jessica": 385,
+      "morties_lost": 161,
+      "steps_taken": 202,
+      "status_message": "To live is to risk it all, otherwise you're just an inert chunk of randomly assembled molecules."
+    },
+    {
+      "trip": 203,
+      "action": 0,
+      "predicted_probs": [
+        0.5032119552694861,
+        0.18752427891636014,
+        0.1623901741869937
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 451,
+      "morties_on_planet_jessica": 388,
+      "morties_lost": 161,
+      "steps_taken": 203,
+      "status_message": "Existence is pain to a Meeseeks... and also to Morties on the wrong planet."
+    },
+    {
+      "trip": 204,
+      "action": 0,
+      "predicted_probs": [
+        0.3218732430364459,
+        0.18752427891636017,
+        0.16239017418699364
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 448,
+      "morties_on_planet_jessica": 388,
+      "morties_lost": 164,
+      "steps_taken": 204,
+      "status_message": "You pass butter. Just kidding, you save Morties."
+    },
+    {
+      "trip": 205,
+      "action": 0,
+      "predicted_probs": [
+        0.47707679661687963,
+        0.18752427891636017,
+        0.16239017418699364
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 445,
+      "morties_on_planet_jessica": 388,
+      "morties_lost": 167,
+      "steps_taken": 205,
+      "status_message": "Don't break an arm jerking yourself off."
+    },
+    {
+      "trip": 206,
+      "action": 0,
+      "predicted_probs": [
+        0.3606249224774812,
+        0.18752427891636014,
+        0.16239017418699364
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 442,
+      "morties_on_planet_jessica": 388,
+      "morties_lost": 170,
+      "steps_taken": 206,
+      "status_message": "Existence is pain to a Meeseeks... and also to Morties on the wrong planet."
+    },
+    {
+      "trip": 207,
+      "action": 0,
+      "predicted_probs": [
+        0.2629091986639467,
+        0.18752427891636014,
+        0.16239017418699364
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 439,
+      "morties_on_planet_jessica": 388,
+      "morties_lost": 173,
+      "steps_taken": 207,
+      "status_message": "To live is to risk it all, otherwise you're just an inert chunk of randomly assembled molecules."
+    },
+    {
+      "trip": 208,
+      "action": 0,
+      "predicted_probs": [
+        0.3614497130875193,
+        0.18752427891636014,
+        0.16239017418699364
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 436,
+      "morties_on_planet_jessica": 391,
+      "morties_lost": 173,
+      "steps_taken": 208,
+      "status_message": "You pass butter. Just kidding, you save Morties."
+    },
+    {
+      "trip": 209,
+      "action": 0,
+      "predicted_probs": [
+        0.3353342812138119,
+        0.18752427891636012,
+        0.1623901741869937
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 433,
+      "morties_on_planet_jessica": 394,
+      "morties_lost": 173,
+      "steps_taken": 209,
+      "status_message": "You pass butter. Just kidding, you save Morties."
+    },
+    {
+      "trip": 210,
+      "action": 0,
+      "predicted_probs": [
+        0.4066773977097881,
+        0.18752427891636012,
+        0.16239017418699364
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 430,
+      "morties_on_planet_jessica": 397,
+      "morties_lost": 173,
+      "steps_taken": 210,
+      "status_message": "That's planning for failure, Morty. Even dumber than regular planning."
+    },
+    {
+      "trip": 211,
+      "action": 0,
+      "predicted_probs": [
+        0.46087865354312624,
+        0.18752427891636014,
+        0.1623901741869937
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 427,
+      "morties_on_planet_jessica": 400,
+      "morties_lost": 173,
+      "steps_taken": 211,
+      "status_message": "I'm not looking for judgement, just a yes or no. Can you save these Morties?"
+    },
+    {
+      "trip": 212,
+      "action": 0,
+      "predicted_probs": [
+        0.45934373692104197,
+        0.18752427891636014,
+        0.1623901741869937
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 424,
+      "morties_on_planet_jessica": 403,
+      "morties_lost": 173,
+      "steps_taken": 212,
+      "status_message": "Don't break an arm jerking yourself off."
+    },
+    {
+      "trip": 213,
+      "action": 0,
+      "predicted_probs": [
+        0.24164087890308636,
+        0.1875242789163602,
+        0.1623901741869937
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 421,
+      "morties_on_planet_jessica": 406,
+      "morties_lost": 173,
+      "steps_taken": 213,
+      "status_message": "Get your sh*t together. Get it all together, and put it in a backpack."
+    },
+    {
+      "trip": 214,
+      "action": 1,
+      "predicted_probs": [
+        0.1029443281728401,
+        0.18752427891636012,
+        0.16239017418699364
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 418,
+      "morties_on_planet_jessica": 409,
+      "morties_lost": 173,
+      "steps_taken": 214,
+      "status_message": "Wubba lubba dub dub!"
+    },
+    {
+      "trip": 215,
+      "action": 1,
+      "predicted_probs": [
+        0.10294432817284012,
+        0.47237736506616174,
+        0.1623901741869936
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 415,
+      "morties_on_planet_jessica": 409,
+      "morties_lost": 176,
+      "steps_taken": 215,
+      "status_message": "I'm not looking for judgement, just a yes or no. Can you save these Morties?"
+    },
+    {
+      "trip": 216,
+      "action": 1,
+      "predicted_probs": [
+        0.10294432817284006,
+        0.8134569097121811,
+        0.16239017418699364
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 412,
+      "morties_on_planet_jessica": 409,
+      "morties_lost": 179,
+      "steps_taken": 216,
+      "status_message": "This is why you don't freeze time, you guys. It's incredibly irresponsible."
+    },
+    {
+      "trip": 217,
+      "action": 1,
+      "predicted_probs": [
+        0.10294432817284008,
+        0.5366956861781826,
+        0.1623901741869937
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 409,
+      "morties_on_planet_jessica": 409,
+      "morties_lost": 182,
+      "steps_taken": 217,
+      "status_message": "Existence is pain to a Meeseeks... and also to Morties on the wrong planet."
+    },
+    {
+      "trip": 218,
+      "action": 1,
+      "predicted_probs": [
+        0.1029443281728401,
+        0.2944465177717793,
+        0.16239017418699364
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 406,
+      "morties_on_planet_jessica": 409,
+      "morties_lost": 185,
+      "steps_taken": 218,
+      "status_message": "To live is to risk it all, otherwise you're just an inert chunk of randomly assembled molecules."
+    },
+    {
+      "trip": 219,
+      "action": 1,
+      "predicted_probs": [
+        0.1029443281728401,
+        0.6592522488232495,
+        0.16239017418699364
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 403,
+      "morties_on_planet_jessica": 409,
+      "morties_lost": 188,
+      "steps_taken": 219,
+      "status_message": "Existence is pain to a Meeseeks... and also to Morties on the wrong planet."
+    },
+    {
+      "trip": 220,
+      "action": 1,
+      "predicted_probs": [
+        0.10294432817284008,
+        0.4314242903788481,
+        0.16239017418699364
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 400,
+      "morties_on_planet_jessica": 409,
+      "morties_lost": 191,
+      "steps_taken": 220,
+      "status_message": "Sometimes science is more art than science, Morty."
+    },
+    {
+      "trip": 221,
+      "action": 2,
+      "predicted_probs": [
+        0.10294432817284008,
+        0.03864571967912446,
+        0.1623901741869937
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 397,
+      "morties_on_planet_jessica": 412,
+      "morties_lost": 191,
+      "steps_taken": 221,
+      "status_message": "Quantum carburetor? Jesus, Morty. You can't just add a sci-fi word to a car word."
+    },
+    {
+      "trip": 222,
+      "action": 2,
+      "predicted_probs": [
+        0.1029443281728401,
+        0.03864571967912446,
+        0.3240131646914445
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 394,
+      "morties_on_planet_jessica": 412,
+      "morties_lost": 194,
+      "steps_taken": 222,
+      "status_message": "Sometimes science is more art than science, Morty."
+    },
+    {
+      "trip": 223,
+      "action": 2,
+      "predicted_probs": [
+        0.10294432817284008,
+        0.03864571967912445,
+        0.354484956522978
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 391,
+      "morties_on_planet_jessica": 415,
+      "morties_lost": 194,
+      "steps_taken": 223,
+      "status_message": "Get your sh*t together. Get it all together, and put it in a backpack."
+    },
+    {
+      "trip": 224,
+      "action": 2,
+      "predicted_probs": [
+        0.1029443281728401,
+        0.03864571967912445,
+        0.4104897534379709
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 388,
+      "morties_on_planet_jessica": 418,
+      "morties_lost": 194,
+      "steps_taken": 224,
+      "status_message": "I'm a scientist; because I invent, transform, create, and destroy for a living."
+    },
+    {
+      "trip": 225,
+      "action": 2,
+      "predicted_probs": [
+        0.10294432817284012,
+        0.03864571967912445,
+        0.4718887146177636
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 385,
+      "morties_on_planet_jessica": 418,
+      "morties_lost": 197,
+      "steps_taken": 225,
+      "status_message": "Listen Morty, I hate to break it to you, but what people call 'love' is just a chemical reaction."
+    },
+    {
+      "trip": 226,
+      "action": 2,
+      "predicted_probs": [
+        0.10294432817284008,
+        0.03864571967912446,
+        0.4544895316083038
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 382,
+      "morties_on_planet_jessica": 421,
+      "morties_lost": 197,
+      "steps_taken": 226,
+      "status_message": "This is why you don't freeze time, you guys. It's incredibly irresponsible."
+    },
+    {
+      "trip": 227,
+      "action": 2,
+      "predicted_probs": [
+        0.10294432817284008,
+        0.03864571967912446,
+        0.48688693836398683
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 379,
+      "morties_on_planet_jessica": 421,
+      "morties_lost": 200,
+      "steps_taken": 227,
+      "status_message": "Listen Morty, I hate to break it to you, but what people call 'love' is just a chemical reaction."
+    },
+    {
+      "trip": 228,
+      "action": 2,
+      "predicted_probs": [
+        0.10294432817284008,
+        0.03864571967912445,
+        0.43463174241588104
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 376,
+      "morties_on_planet_jessica": 421,
+      "morties_lost": 203,
+      "steps_taken": 228,
+      "status_message": "Get your sh*t together. Get it all together, and put it in a backpack."
+    },
+    {
+      "trip": 229,
+      "action": 2,
+      "predicted_probs": [
+        0.10294432817284008,
+        0.03864571967912445,
+        0.4144682839428374
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 373,
+      "morties_on_planet_jessica": 421,
+      "morties_lost": 206,
+      "steps_taken": 229,
+      "status_message": "Sometimes science is more art than science, Morty."
+    },
+    {
+      "trip": 230,
+      "action": 2,
+      "predicted_probs": [
+        0.10294432817284008,
+        0.03864571967912445,
+        0.3156215151397197
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 370,
+      "morties_on_planet_jessica": 421,
+      "morties_lost": 209,
+      "steps_taken": 230,
+      "status_message": "Your boos mean nothing, I've seen what makes you cheer!"
+    },
+    {
+      "trip": 231,
+      "action": 2,
+      "predicted_probs": [
+        0.1029443281728401,
+        0.03864571967912445,
+        0.18502400485166515
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 367,
+      "morties_on_planet_jessica": 421,
+      "morties_lost": 212,
+      "steps_taken": 231,
+      "status_message": "Quantum carburetor? Jesus, Morty. You can't just add a sci-fi word to a car word."
+    },
+    {
+      "trip": 232,
+      "action": 0,
+      "predicted_probs": [
+        0.1029443281728401,
+        0.03864571967912445,
+        0.0500010146283712
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 364,
+      "morties_on_planet_jessica": 424,
+      "morties_lost": 212,
+      "steps_taken": 232,
+      "status_message": "Sometimes science is more art than science, Morty."
+    },
+    {
+      "trip": 233,
+      "action": 0,
+      "predicted_probs": [
+        0.19999837101521994,
+        0.03864571967912445,
+        0.0500010146283712
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 361,
+      "morties_on_planet_jessica": 424,
+      "morties_lost": 215,
+      "steps_taken": 233,
+      "status_message": "I'm not looking for judgement, just a yes or no. Can you save these Morties?"
+    },
+    {
+      "trip": 234,
+      "action": 0,
+      "predicted_probs": [
+        0.47707679661687963,
+        0.03864571967912446,
+        0.050001014628371185
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 358,
+      "morties_on_planet_jessica": 424,
+      "morties_lost": 218,
+      "steps_taken": 234,
+      "status_message": "This is why you don't freeze time, you guys. It's incredibly irresponsible."
+    },
+    {
+      "trip": 235,
+      "action": 0,
+      "predicted_probs": [
+        0.3606249224774811,
+        0.03864571967912445,
+        0.0500010146283712
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 355,
+      "morties_on_planet_jessica": 424,
+      "morties_lost": 221,
+      "steps_taken": 235,
+      "status_message": "Get your sh*t together. Get it all together, and put it in a backpack."
+    },
+    {
+      "trip": 236,
+      "action": 0,
+      "predicted_probs": [
+        0.2161825768159872,
+        0.03864571967912446,
+        0.0500010146283712
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 352,
+      "morties_on_planet_jessica": 424,
+      "morties_lost": 224,
+      "steps_taken": 236,
+      "status_message": "I'm not looking for judgement, just a yes or no. Can you save these Morties?"
+    },
+    {
+      "trip": 237,
+      "action": 0,
+      "predicted_probs": [
+        0.3328760770984697,
+        0.03864571967912445,
+        0.05000101462837117
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 349,
+      "morties_on_planet_jessica": 424,
+      "morties_lost": 227,
+      "steps_taken": 237,
+      "status_message": "Keep going! Or don't. I'm not your dad."
+    },
+    {
+      "trip": 238,
+      "action": 0,
+      "predicted_probs": [
+        0.2925575999822122,
+        0.03864571967912445,
+        0.050001014628371185
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 346,
+      "morties_on_planet_jessica": 424,
+      "morties_lost": 230,
+      "steps_taken": 238,
+      "status_message": "You pass butter. Just kidding, you save Morties."
+    },
+    {
+      "trip": 239,
+      "action": 0,
+      "predicted_probs": [
+        0.45874854633776607,
+        0.03864571967912445,
+        0.050001014628371206
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 343,
+      "morties_on_planet_jessica": 427,
+      "morties_lost": 230,
+      "steps_taken": 239,
+      "status_message": "I'm not looking for judgement, just a yes or no. Can you save these Morties?"
+    },
+    {
+      "trip": 240,
+      "action": 0,
+      "predicted_probs": [
+        0.3543032657521393,
+        0.03864571967912445,
+        0.050001014628371185
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 340,
+      "morties_on_planet_jessica": 430,
+      "morties_lost": 230,
+      "steps_taken": 240,
+      "status_message": "Existence is pain to a Meeseeks... and also to Morties on the wrong planet."
+    },
+    {
+      "trip": 241,
+      "action": 0,
+      "predicted_probs": [
+        0.4438712205781134,
+        0.03864571967912445,
+        0.0500010146283712
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 337,
+      "morties_on_planet_jessica": 433,
+      "morties_lost": 230,
+      "steps_taken": 241,
+      "status_message": "Get Schwifty!"
+    },
+    {
+      "trip": 242,
+      "action": 0,
+      "predicted_probs": [
+        0.417157264284427,
+        0.03864571967912445,
+        0.0500010146283712
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 334,
+      "morties_on_planet_jessica": 436,
+      "morties_lost": 230,
+      "steps_taken": 242,
+      "status_message": "To live is to risk it all, otherwise you're just an inert chunk of randomly assembled molecules."
+    },
+    {
+      "trip": 243,
+      "action": 0,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.03864571967912445,
+        0.0500010146283712
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 331,
+      "morties_on_planet_jessica": 439,
+      "morties_lost": 230,
+      "steps_taken": 243,
+      "status_message": "Wubba lubba dub dub!"
+    },
+    {
+      "trip": 244,
+      "action": 0,
+      "predicted_probs": [
+        0.19715898523897768,
+        0.03864571967912445,
+        0.0500010146283712
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 328,
+      "morties_on_planet_jessica": 439,
+      "morties_lost": 233,
+      "steps_taken": 244,
+      "status_message": "Quantum carburetor? Jesus, Morty. You can't just add a sci-fi word to a car word."
+    },
+    {
+      "trip": 245,
+      "action": 0,
+      "predicted_probs": [
+        0.5116304799499002,
+        0.03864571967912445,
+        0.0500010146283712
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 325,
+      "morties_on_planet_jessica": 439,
+      "morties_lost": 236,
+      "steps_taken": 245,
+      "status_message": "Sometimes science is more art than science, Morty."
+    },
+    {
+      "trip": 246,
+      "action": 0,
+      "predicted_probs": [
+        0.2964918836018386,
+        0.03864571967912445,
+        0.050001014628371185
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 322,
+      "morties_on_planet_jessica": 439,
+      "morties_lost": 239,
+      "steps_taken": 246,
+      "status_message": "That's planning for failure, Morty. Even dumber than regular planning."
+    },
+    {
+      "trip": 247,
+      "action": 0,
+      "predicted_probs": [
+        0.38003193484590414,
+        0.03864571967912445,
+        0.050001014628371185
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 319,
+      "morties_on_planet_jessica": 439,
+      "morties_lost": 242,
+      "steps_taken": 247,
+      "status_message": "That's planning for failure, Morty. Even dumber than regular planning."
+    },
+    {
+      "trip": 248,
+      "action": 0,
+      "predicted_probs": [
+        0.3614497130875192,
+        0.03864571967912445,
+        0.050001014628371185
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 316,
+      "morties_on_planet_jessica": 439,
+      "morties_lost": 245,
+      "steps_taken": 248,
+      "status_message": "Nobody exists on purpose. Nobody belongs anywhere. We're all going to die. Come save some Morties."
+    },
+    {
+      "trip": 249,
+      "action": 0,
+      "predicted_probs": [
+        0.2925575999822122,
+        0.03864571967912446,
+        0.0500010146283712
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 313,
+      "morties_on_planet_jessica": 442,
+      "morties_lost": 245,
+      "steps_taken": 249,
+      "status_message": "Existence is pain to a Meeseeks... and also to Morties on the wrong planet."
+    },
+    {
+      "trip": 250,
+      "action": 0,
+      "predicted_probs": [
+        0.43361370421715717,
+        0.03864571967912445,
+        0.05000101462837118
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 310,
+      "morties_on_planet_jessica": 445,
+      "morties_lost": 245,
+      "steps_taken": 250,
+      "status_message": "Keep going! Or don't. I'm not your dad."
+    },
+    {
+      "trip": 251,
+      "action": 0,
+      "predicted_probs": [
+        0.5982418787007178,
+        0.03864571967912445,
+        0.05000101462837118
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 307,
+      "morties_on_planet_jessica": 448,
+      "morties_lost": 245,
+      "steps_taken": 251,
+      "status_message": "I'm not looking for judgement, just a yes or no. Can you save these Morties?"
+    },
+    {
+      "trip": 252,
+      "action": 0,
+      "predicted_probs": [
+        0.6066653530019016,
+        0.03864571967912445,
+        0.050001014628371185
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 304,
+      "morties_on_planet_jessica": 448,
+      "morties_lost": 248,
+      "steps_taken": 252,
+      "status_message": "That's planning for failure, Morty. Even dumber than regular planning."
+    },
+    {
+      "trip": 253,
+      "action": 0,
+      "predicted_probs": [
+        0.3556306398757363,
+        0.03864571967912446,
+        0.050001014628371185
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 301,
+      "morties_on_planet_jessica": 451,
+      "morties_lost": 248,
+      "steps_taken": 253,
+      "status_message": "Wubba lubba dub dub!"
+    },
+    {
+      "trip": 254,
+      "action": 0,
+      "predicted_probs": [
+        0.18362385952935173,
+        0.03864571967912445,
+        0.050001014628371185
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 298,
+      "morties_on_planet_jessica": 454,
+      "morties_lost": 248,
+      "steps_taken": 254,
+      "status_message": "Listen Morty, I hate to break it to you, but what people call 'love' is just a chemical reaction."
+    },
+    {
+      "trip": 255,
+      "action": 0,
+      "predicted_probs": [
+        0.43369626515606263,
+        0.03864571967912445,
+        0.050001014628371185
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 295,
+      "morties_on_planet_jessica": 454,
+      "morties_lost": 251,
+      "steps_taken": 255,
+      "status_message": "Your boos mean nothing, I've seen what makes you cheer!"
+    },
+    {
+      "trip": 256,
+      "action": 0,
+      "predicted_probs": [
+        0.5821824153687875,
+        0.03864571967912445,
+        0.0500010146283712
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 292,
+      "morties_on_planet_jessica": 454,
+      "morties_lost": 254,
+      "steps_taken": 256,
+      "status_message": "Quantum carburetor? Jesus, Morty. You can't just add a sci-fi word to a car word."
+    },
+    {
+      "trip": 257,
+      "action": 0,
+      "predicted_probs": [
+        0.2964918836018385,
+        0.03864571967912445,
+        0.050001014628371206
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 289,
+      "morties_on_planet_jessica": 454,
+      "morties_lost": 257,
+      "steps_taken": 257,
+      "status_message": "You pass butter. Just kidding, you save Morties."
+    },
+    {
+      "trip": 258,
+      "action": 0,
+      "predicted_probs": [
+        0.3800319348459043,
+        0.03864571967912445,
+        0.0500010146283712
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 286,
+      "morties_on_planet_jessica": 457,
+      "morties_lost": 257,
+      "steps_taken": 258,
+      "status_message": "Sometimes science is more art than science, Morty."
+    },
+    {
+      "trip": 259,
+      "action": 0,
+      "predicted_probs": [
+        0.33533428121381187,
+        0.03864571967912445,
+        0.050001014628371206
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 283,
+      "morties_on_planet_jessica": 460,
+      "morties_lost": 257,
+      "steps_taken": 259,
+      "status_message": "Your boos mean nothing, I've seen what makes you cheer!"
+    },
+    {
+      "trip": 260,
+      "action": 0,
+      "predicted_probs": [
+        0.40667739770978806,
+        0.03864571967912445,
+        0.050001014628371206
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 280,
+      "morties_on_planet_jessica": 460,
+      "morties_lost": 260,
+      "steps_taken": 260,
+      "status_message": "Nobody exists on purpose. Nobody belongs anywhere. We're all going to die. Come save some Morties."
+    },
+    {
+      "trip": 261,
+      "action": 0,
+      "predicted_probs": [
+        0.5821824153687873,
+        0.03864571967912445,
+        0.0500010146283712
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 277,
+      "morties_on_planet_jessica": 463,
+      "morties_lost": 260,
+      "steps_taken": 261,
+      "status_message": "Listen Morty, I hate to break it to you, but what people call 'love' is just a chemical reaction."
+    },
+    {
+      "trip": 262,
+      "action": 0,
+      "predicted_probs": [
+        0.22225993143315126,
+        0.03864571967912445,
+        0.05000101462837121
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 274,
+      "morties_on_planet_jessica": 463,
+      "morties_lost": 263,
+      "steps_taken": 262,
+      "status_message": "Existence is pain to a Meeseeks... and also to Morties on the wrong planet."
+    },
+    {
+      "trip": 263,
+      "action": 0,
+      "predicted_probs": [
+        0.44124549237062466,
+        0.03864571967912445,
+        0.0500010146283712
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 271,
+      "morties_on_planet_jessica": 466,
+      "morties_lost": 263,
+      "steps_taken": 263,
+      "status_message": "I'm not looking for judgement, just a yes or no. Can you save these Morties?"
+    },
+    {
+      "trip": 264,
+      "action": 0,
+      "predicted_probs": [
+        0.3202639963070517,
+        0.03864571967912445,
+        0.05000101462837118
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 268,
+      "morties_on_planet_jessica": 469,
+      "morties_lost": 263,
+      "steps_taken": 264,
+      "status_message": "Existence is pain to a Meeseeks... and also to Morties on the wrong planet."
+    },
+    {
+      "trip": 265,
+      "action": 0,
+      "predicted_probs": [
+        0.43369626515606263,
+        0.03864571967912445,
+        0.050001014628371185
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 265,
+      "morties_on_planet_jessica": 469,
+      "morties_lost": 266,
+      "steps_taken": 265,
+      "status_message": "Keep going! Or don't. I'm not your dad."
+    },
+    {
+      "trip": 266,
+      "action": 0,
+      "predicted_probs": [
+        0.5821824153687873,
+        0.03864571967912445,
+        0.0500010146283712
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 262,
+      "morties_on_planet_jessica": 469,
+      "morties_lost": 269,
+      "steps_taken": 266,
+      "status_message": "Nobody exists on purpose. Nobody belongs anywhere. We're all going to die. Come save some Morties."
+    },
+    {
+      "trip": 267,
+      "action": 0,
+      "predicted_probs": [
+        0.2964918836018385,
+        0.03864571967912445,
+        0.050001014628371185
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 259,
+      "morties_on_planet_jessica": 469,
+      "morties_lost": 272,
+      "steps_taken": 267,
+      "status_message": "This is why you don't freeze time, you guys. It's incredibly irresponsible."
+    },
+    {
+      "trip": 268,
+      "action": 0,
+      "predicted_probs": [
+        0.38003193484590425,
+        0.03864571967912445,
+        0.050001014628371206
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 256,
+      "morties_on_planet_jessica": 469,
+      "morties_lost": 275,
+      "steps_taken": 268,
+      "status_message": "Listen Morty, I hate to break it to you, but what people call 'love' is just a chemical reaction."
+    },
+    {
+      "trip": 269,
+      "action": 0,
+      "predicted_probs": [
+        0.31151373075335936,
+        0.03864571967912445,
+        0.05000101462837118
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 253,
+      "morties_on_planet_jessica": 472,
+      "morties_lost": 275,
+      "steps_taken": 269,
+      "status_message": "Keep going! Or don't. I'm not your dad."
+    },
+    {
+      "trip": 270,
+      "action": 0,
+      "predicted_probs": [
+        0.3543032657521393,
+        0.03864571967912445,
+        0.050001014628371206
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 250,
+      "morties_on_planet_jessica": 475,
+      "morties_lost": 275,
+      "steps_taken": 270,
+      "status_message": "This is why you don't freeze time, you guys. It's incredibly irresponsible."
+    },
+    {
+      "trip": 271,
+      "action": 0,
+      "predicted_probs": [
+        0.5982418787007179,
+        0.03864571967912445,
+        0.050001014628371185
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 247,
+      "morties_on_planet_jessica": 478,
+      "morties_lost": 275,
+      "steps_taken": 271,
+      "status_message": "I'm a scientist; because I invent, transform, create, and destroy for a living."
+    },
+    {
+      "trip": 272,
+      "action": 0,
+      "predicted_probs": [
+        0.6066653530019017,
+        0.03864571967912445,
+        0.05000101462837118
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 244,
+      "morties_on_planet_jessica": 481,
+      "morties_lost": 275,
+      "steps_taken": 272,
+      "status_message": "That's planning for failure, Morty. Even dumber than regular planning."
+    },
+    {
+      "trip": 273,
+      "action": 0,
+      "predicted_probs": [
+        0.45934373692104186,
+        0.03864571967912446,
+        0.05000101462837118
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 241,
+      "morties_on_planet_jessica": 481,
+      "morties_lost": 278,
+      "steps_taken": 273,
+      "status_message": "Don't break an arm jerking yourself off."
+    },
+    {
+      "trip": 274,
+      "action": 0,
+      "predicted_probs": [
+        0.5116304799499001,
+        0.03864571967912445,
+        0.050001014628371185
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 238,
+      "morties_on_planet_jessica": 481,
+      "morties_lost": 281,
+      "steps_taken": 274,
+      "status_message": "Get Schwifty!"
+    },
+    {
+      "trip": 275,
+      "action": 0,
+      "predicted_probs": [
+        0.2542585833915378,
+        0.03864571967912445,
+        0.050001014628371185
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 235,
+      "morties_on_planet_jessica": 481,
+      "morties_lost": 284,
+      "steps_taken": 275,
+      "status_message": "I'm a scientist; because I invent, transform, create, and destroy for a living."
+    },
+    {
+      "trip": 276,
+      "action": 0,
+      "predicted_probs": [
+        0.34389628828404006,
+        0.03864571967912445,
+        0.05000101462837118
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 232,
+      "morties_on_planet_jessica": 481,
+      "morties_lost": 287,
+      "steps_taken": 276,
+      "status_message": "Get your sh*t together. Get it all together, and put it in a backpack."
+    },
+    {
+      "trip": 277,
+      "action": 0,
+      "predicted_probs": [
+        0.3115137307533593,
+        0.03864571967912445,
+        0.050001014628371185
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 229,
+      "morties_on_planet_jessica": 481,
+      "morties_lost": 290,
+      "steps_taken": 277,
+      "status_message": "To live is to risk it all, otherwise you're just an inert chunk of randomly assembled molecules."
+    },
+    {
+      "trip": 278,
+      "action": 0,
+      "predicted_probs": [
+        0.4229452094269941,
+        0.03864571967912445,
+        0.05000101462837118
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 226,
+      "morties_on_planet_jessica": 484,
+      "morties_lost": 290,
+      "steps_taken": 278,
+      "status_message": "Your boos mean nothing, I've seen what makes you cheer!"
+    },
+    {
+      "trip": 279,
+      "action": 0,
+      "predicted_probs": [
+        0.43361370421715706,
+        0.03864571967912445,
+        0.050001014628371185
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 223,
+      "morties_on_planet_jessica": 484,
+      "morties_lost": 293,
+      "steps_taken": 279,
+      "status_message": "I'm not looking for judgement, just a yes or no. Can you save these Morties?"
+    },
+    {
+      "trip": 280,
+      "action": 0,
+      "predicted_probs": [
+        0.49939890607006826,
+        0.03864571967912446,
+        0.05000101462837118
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 220,
+      "morties_on_planet_jessica": 487,
+      "morties_lost": 293,
+      "steps_taken": 280,
+      "status_message": "I'm a scientist; because I invent, transform, create, and destroy for a living."
+    },
+    {
+      "trip": 281,
+      "action": 0,
+      "predicted_probs": [
+        0.3628140513289539,
+        0.03864571967912445,
+        0.050001014628371206
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 217,
+      "morties_on_planet_jessica": 490,
+      "morties_lost": 293,
+      "steps_taken": 281,
+      "status_message": "This is why you don't freeze time, you guys. It's incredibly irresponsible."
+    },
+    {
+      "trip": 282,
+      "action": 0,
+      "predicted_probs": [
+        0.4021038031758163,
+        0.03864571967912445,
+        0.0500010146283712
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 214,
+      "morties_on_planet_jessica": 490,
+      "morties_lost": 296,
+      "steps_taken": 282,
+      "status_message": "Existence is pain to a Meeseeks... and also to Morties on the wrong planet."
+    },
+    {
+      "trip": 283,
+      "action": 0,
+      "predicted_probs": [
+        0.5007629421067217,
+        0.03864571967912446,
+        0.050001014628371185
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 211,
+      "morties_on_planet_jessica": 490,
+      "morties_lost": 299,
+      "steps_taken": 283,
+      "status_message": "Sometimes science is more art than science, Morty."
+    },
+    {
+      "trip": 284,
+      "action": 0,
+      "predicted_probs": [
+        0.22084171230725705,
+        0.03864571967912445,
+        0.0500010146283712
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 208,
+      "morties_on_planet_jessica": 490,
+      "morties_lost": 302,
+      "steps_taken": 284,
+      "status_message": "Listen Morty, I hate to break it to you, but what people call 'love' is just a chemical reaction."
+    },
+    {
+      "trip": 285,
+      "action": 0,
+      "predicted_probs": [
+        0.3669699992764135,
+        0.03864571967912445,
+        0.0500010146283712
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 205,
+      "morties_on_planet_jessica": 490,
+      "morties_lost": 305,
+      "steps_taken": 285,
+      "status_message": "Wubba lubba dub dub!"
+    },
+    {
+      "trip": 286,
+      "action": 0,
+      "predicted_probs": [
+        0.28610455814545127,
+        0.03864571967912445,
+        0.05000101462837118
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 202,
+      "morties_on_planet_jessica": 490,
+      "morties_lost": 308,
+      "steps_taken": 286,
+      "status_message": "Wubba lubba dub dub!"
+    },
+    {
+      "trip": 287,
+      "action": 0,
+      "predicted_probs": [
+        0.22060682499401976,
+        0.03864571967912445,
+        0.0500010146283712
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 199,
+      "morties_on_planet_jessica": 493,
+      "morties_lost": 308,
+      "steps_taken": 287,
+      "status_message": "That's planning for failure, Morty. Even dumber than regular planning."
+    },
+    {
+      "trip": 288,
+      "action": 0,
+      "predicted_probs": [
+        0.3543032657521393,
+        0.03864571967912445,
+        0.050001014628371206
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 196,
+      "morties_on_planet_jessica": 493,
+      "morties_lost": 311,
+      "steps_taken": 288,
+      "status_message": "You pass butter. Just kidding, you save Morties."
+    },
+    {
+      "trip": 289,
+      "action": 0,
+      "predicted_probs": [
+        0.5392620207971394,
+        0.03864571967912445,
+        0.0500010146283712
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 193,
+      "morties_on_planet_jessica": 496,
+      "morties_lost": 311,
+      "steps_taken": 289,
+      "status_message": "Your boos mean nothing, I've seen what makes you cheer!"
+    },
+    {
+      "trip": 290,
+      "action": 0,
+      "predicted_probs": [
+        0.3628140513289539,
+        0.03864571967912445,
+        0.05000101462837118
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 190,
+      "morties_on_planet_jessica": 499,
+      "morties_lost": 311,
+      "steps_taken": 290,
+      "status_message": "I'm a scientist; because I invent, transform, create, and destroy for a living."
+    },
+    {
+      "trip": 291,
+      "action": 0,
+      "predicted_probs": [
+        0.4021038031758163,
+        0.03864571967912445,
+        0.050001014628371185
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 187,
+      "morties_on_planet_jessica": 502,
+      "morties_lost": 311,
+      "steps_taken": 291,
+      "status_message": "Your boos mean nothing, I've seen what makes you cheer!"
+    },
+    {
+      "trip": 292,
+      "action": 0,
+      "predicted_probs": [
+        0.4171572642844268,
+        0.03864571967912445,
+        0.0500010146283712
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 184,
+      "morties_on_planet_jessica": 502,
+      "morties_lost": 314,
+      "steps_taken": 292,
+      "status_message": "Your boos mean nothing, I've seen what makes you cheer!"
+    },
+    {
+      "trip": 293,
+      "action": 0,
+      "predicted_probs": [
+        0.35563063987573634,
+        0.03864571967912445,
+        0.0500010146283712
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 181,
+      "morties_on_planet_jessica": 502,
+      "morties_lost": 317,
+      "steps_taken": 293,
+      "status_message": "Get your sh*t together. Get it all together, and put it in a backpack."
+    },
+    {
+      "trip": 294,
+      "action": 0,
+      "predicted_probs": [
+        0.2542585833915378,
+        0.03864571967912445,
+        0.0500010146283712
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 178,
+      "morties_on_planet_jessica": 502,
+      "morties_lost": 320,
+      "steps_taken": 294,
+      "status_message": "Sometimes science is more art than science, Morty."
+    },
+    {
+      "trip": 295,
+      "action": 0,
+      "predicted_probs": [
+        0.34389628828403995,
+        0.03864571967912445,
+        0.050001014628371206
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 175,
+      "morties_on_planet_jessica": 502,
+      "morties_lost": 323,
+      "steps_taken": 295,
+      "status_message": "Quantum carburetor? Jesus, Morty. You can't just add a sci-fi word to a car word."
+    },
+    {
+      "trip": 296,
+      "action": 0,
+      "predicted_probs": [
+        0.3115137307533593,
+        0.03864571967912446,
+        0.0500010146283712
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 172,
+      "morties_on_planet_jessica": 502,
+      "morties_lost": 326,
+      "steps_taken": 296,
+      "status_message": "I'm a scientist; because I invent, transform, create, and destroy for a living."
+    },
+    {
+      "trip": 297,
+      "action": 0,
+      "predicted_probs": [
+        0.4229452094269941,
+        0.03864571967912445,
+        0.050001014628371206
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 169,
+      "morties_on_planet_jessica": 502,
+      "morties_lost": 329,
+      "steps_taken": 297,
+      "status_message": "Nobody exists on purpose. Nobody belongs anywhere. We're all going to die. Come save some Morties."
+    },
+    {
+      "trip": 298,
+      "action": 0,
+      "predicted_probs": [
+        0.22427658463113612,
+        0.03864571967912445,
+        0.0500010146283712
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 166,
+      "morties_on_planet_jessica": 505,
+      "morties_lost": 329,
+      "steps_taken": 298,
+      "status_message": "Keep going! Or don't. I'm not your dad."
+    },
+    {
+      "trip": 299,
+      "action": 0,
+      "predicted_probs": [
+        0.35430326575213933,
+        0.03864571967912445,
+        0.050001014628371206
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 163,
+      "morties_on_planet_jessica": 508,
+      "morties_lost": 329,
+      "steps_taken": 299,
+      "status_message": "I'm a scientist; because I invent, transform, create, and destroy for a living."
+    },
+    {
+      "trip": 300,
+      "action": 0,
+      "predicted_probs": [
+        0.44387122057811323,
+        0.03864571967912445,
+        0.0500010146283712
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 160,
+      "morties_on_planet_jessica": 511,
+      "morties_lost": 329,
+      "steps_taken": 300,
+      "status_message": "This is why you don't freeze time, you guys. It's incredibly irresponsible."
+    },
+    {
+      "trip": 301,
+      "action": 0,
+      "predicted_probs": [
+        0.41715726428442695,
+        0.03864571967912445,
+        0.050001014628371185
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 157,
+      "morties_on_planet_jessica": 514,
+      "morties_lost": 329,
+      "steps_taken": 301,
+      "status_message": "To live is to risk it all, otherwise you're just an inert chunk of randomly assembled molecules."
+    },
+    {
+      "trip": 302,
+      "action": 0,
+      "predicted_probs": [
+        0.2876906733799666,
+        0.03864571967912445,
+        0.0500010146283712
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 154,
+      "morties_on_planet_jessica": 514,
+      "morties_lost": 332,
+      "steps_taken": 302,
+      "status_message": "Quantum carburetor? Jesus, Morty. You can't just add a sci-fi word to a car word."
+    },
+    {
+      "trip": 303,
+      "action": 0,
+      "predicted_probs": [
+        0.3556306398757365,
+        0.03864571967912445,
+        0.050001014628371185
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 151,
+      "morties_on_planet_jessica": 517,
+      "morties_lost": 332,
+      "steps_taken": 303,
+      "status_message": "That's planning for failure, Morty. Even dumber than regular planning."
+    },
+    {
+      "trip": 304,
+      "action": 0,
+      "predicted_probs": [
+        0.22225993143315126,
+        0.03864571967912445,
+        0.0500010146283712
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 148,
+      "morties_on_planet_jessica": 517,
+      "morties_lost": 335,
+      "steps_taken": 304,
+      "status_message": "To live is to risk it all, otherwise you're just an inert chunk of randomly assembled molecules."
+    },
+    {
+      "trip": 305,
+      "action": 0,
+      "predicted_probs": [
+        0.4412454923706248,
+        0.03864571967912445,
+        0.05000101462837121
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 145,
+      "morties_on_planet_jessica": 517,
+      "morties_lost": 338,
+      "steps_taken": 305,
+      "status_message": "I'm not looking for judgement, just a yes or no. Can you save these Morties?"
+    },
+    {
+      "trip": 306,
+      "action": 0,
+      "predicted_probs": [
+        0.3755883420324257,
+        0.03864571967912446,
+        0.050001014628371185
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 142,
+      "morties_on_planet_jessica": 517,
+      "morties_lost": 341,
+      "steps_taken": 306,
+      "status_message": "Sometimes science is more art than science, Morty."
+    },
+    {
+      "trip": 307,
+      "action": 0,
+      "predicted_probs": [
+        0.3800319348459043,
+        0.03864571967912445,
+        0.050001014628371206
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 139,
+      "morties_on_planet_jessica": 517,
+      "morties_lost": 344,
+      "steps_taken": 307,
+      "status_message": "Nobody exists on purpose. Nobody belongs anywhere. We're all going to die. Come save some Morties."
+    },
+    {
+      "trip": 308,
+      "action": 0,
+      "predicted_probs": [
+        0.3614497130875192,
+        0.03864571967912446,
+        0.050001014628371185
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 136,
+      "morties_on_planet_jessica": 520,
+      "morties_lost": 344,
+      "steps_taken": 308,
+      "status_message": "Don't break an arm jerking yourself off."
+    },
+    {
+      "trip": 309,
+      "action": 0,
+      "predicted_probs": [
+        0.43361370421715706,
+        0.03864571967912445,
+        0.050001014628371185
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 133,
+      "morties_on_planet_jessica": 523,
+      "morties_lost": 344,
+      "steps_taken": 309,
+      "status_message": "I'm not looking for judgement, just a yes or no. Can you save these Morties?"
+    },
+    {
+      "trip": 310,
+      "action": 0,
+      "predicted_probs": [
+        0.5982418787007178,
+        0.03864571967912445,
+        0.0500010146283712
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 130,
+      "morties_on_planet_jessica": 526,
+      "morties_lost": 344,
+      "steps_taken": 310,
+      "status_message": "Listen Morty, I hate to break it to you, but what people call 'love' is just a chemical reaction."
+    },
+    {
+      "trip": 311,
+      "action": 0,
+      "predicted_probs": [
+        0.6066653530019016,
+        0.03864571967912445,
+        0.0500010146283712
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 127,
+      "morties_on_planet_jessica": 529,
+      "morties_lost": 344,
+      "steps_taken": 311,
+      "status_message": "Nobody exists on purpose. Nobody belongs anywhere. We're all going to die. Come save some Morties."
+    },
+    {
+      "trip": 312,
+      "action": 0,
+      "predicted_probs": [
+        0.40677241003066755,
+        0.03864571967912445,
+        0.050001014628371185
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 124,
+      "morties_on_planet_jessica": 532,
+      "morties_lost": 344,
+      "steps_taken": 312,
+      "status_message": "Nobody exists on purpose. Nobody belongs anywhere. We're all going to die. Come save some Morties."
+    },
+    {
+      "trip": 313,
+      "action": 0,
+      "predicted_probs": [
+        0.24164087890308636,
+        0.03864571967912445,
+        0.0500010146283712
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 121,
+      "morties_on_planet_jessica": 532,
+      "morties_lost": 347,
+      "steps_taken": 313,
+      "status_message": "Your boos mean nothing, I've seen what makes you cheer!"
+    },
+    {
+      "trip": 314,
+      "action": 0,
+      "predicted_probs": [
+        0.5116304799499002,
+        0.03864571967912445,
+        0.050001014628371185
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 118,
+      "morties_on_planet_jessica": 535,
+      "morties_lost": 347,
+      "steps_taken": 314,
+      "status_message": "Listen Morty, I hate to break it to you, but what people call 'love' is just a chemical reaction."
+    },
+    {
+      "trip": 315,
+      "action": 0,
+      "predicted_probs": [
+        0.2902610008858824,
+        0.03864571967912445,
+        0.0500010146283712
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 115,
+      "morties_on_planet_jessica": 535,
+      "morties_lost": 350,
+      "steps_taken": 315,
+      "status_message": "I'm not looking for judgement, just a yes or no. Can you save these Morties?"
+    },
+    {
+      "trip": 316,
+      "action": 0,
+      "predicted_probs": [
+        0.4512254134530766,
+        0.03864571967912445,
+        0.05000101462837118
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 112,
+      "morties_on_planet_jessica": 535,
+      "morties_lost": 353,
+      "steps_taken": 316,
+      "status_message": "Keep going! Or don't. I'm not your dad."
+    },
+    {
+      "trip": 317,
+      "action": 0,
+      "predicted_probs": [
+        0.372799959446532,
+        0.03864571967912445,
+        0.0500010146283712
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 109,
+      "morties_on_planet_jessica": 538,
+      "morties_lost": 353,
+      "steps_taken": 317,
+      "status_message": "I'm not looking for judgement, just a yes or no. Can you save these Morties?"
+    },
+    {
+      "trip": 318,
+      "action": 0,
+      "predicted_probs": [
+        0.2930199693023708,
+        0.03864571967912445,
+        0.050001014628371185
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 106,
+      "morties_on_planet_jessica": 538,
+      "morties_lost": 356,
+      "steps_taken": 318,
+      "status_message": "Sometimes science is more art than science, Morty."
+    },
+    {
+      "trip": 319,
+      "action": 0,
+      "predicted_probs": [
+        0.40536676370978847,
+        0.03864571967912445,
+        0.0500010146283712
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 103,
+      "morties_on_planet_jessica": 541,
+      "morties_lost": 356,
+      "steps_taken": 319,
+      "status_message": "This is why you don't freeze time, you guys. It's incredibly irresponsible."
+    },
+    {
+      "trip": 320,
+      "action": 0,
+      "predicted_probs": [
+        0.3665403916359694,
+        0.03864571967912445,
+        0.050001014628371185
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 100,
+      "morties_on_planet_jessica": 544,
+      "morties_lost": 356,
+      "steps_taken": 320,
+      "status_message": "That's planning for failure, Morty. Even dumber than regular planning."
+    },
+    {
+      "trip": 321,
+      "action": 0,
+      "predicted_probs": [
+        0.4061810646547459,
+        0.03864571967912445,
+        0.050001014628371185
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 97,
+      "morties_on_planet_jessica": 547,
+      "morties_lost": 356,
+      "steps_taken": 321,
+      "status_message": "Quantum carburetor? Jesus, Morty. You can't just add a sci-fi word to a car word."
+    },
+    {
+      "trip": 322,
+      "action": 0,
+      "predicted_probs": [
+        0.4608786535431262,
+        0.03864571967912445,
+        0.050001014628371185
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 94,
+      "morties_on_planet_jessica": 550,
+      "morties_lost": 356,
+      "steps_taken": 322,
+      "status_message": "Sometimes science is more art than science, Morty."
+    },
+    {
+      "trip": 323,
+      "action": 0,
+      "predicted_probs": [
+        0.4593437369210418,
+        0.03864571967912445,
+        0.0500010146283712
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 91,
+      "morties_on_planet_jessica": 553,
+      "morties_lost": 356,
+      "steps_taken": 323,
+      "status_message": "You pass butter. Just kidding, you save Morties."
+    },
+    {
+      "trip": 324,
+      "action": 0,
+      "predicted_probs": [
+        0.32187324303644593,
+        0.03864571967912445,
+        0.0500010146283712
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 88,
+      "morties_on_planet_jessica": 553,
+      "morties_lost": 359,
+      "steps_taken": 324,
+      "status_message": "Listen Morty, I hate to break it to you, but what people call 'love' is just a chemical reaction."
+    },
+    {
+      "trip": 325,
+      "action": 0,
+      "predicted_probs": [
+        0.44003677729379953,
+        0.03864571967912445,
+        0.0500010146283712
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 85,
+      "morties_on_planet_jessica": 553,
+      "morties_lost": 362,
+      "steps_taken": 325,
+      "status_message": "Listen Morty, I hate to break it to you, but what people call 'love' is just a chemical reaction."
+    },
+    {
+      "trip": 326,
+      "action": 0,
+      "predicted_probs": [
+        0.294403912238565,
+        0.03864571967912445,
+        0.0500010146283712
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 82,
+      "morties_on_planet_jessica": 553,
+      "morties_lost": 365,
+      "steps_taken": 326,
+      "status_message": "Wubba lubba dub dub!"
+    },
+    {
+      "trip": 327,
+      "action": 0,
+      "predicted_probs": [
+        0.26290919866394663,
+        0.03864571967912445,
+        0.05000101462837118
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 79,
+      "morties_on_planet_jessica": 556,
+      "morties_lost": 365,
+      "steps_taken": 327,
+      "status_message": "Keep going! Or don't. I'm not your dad."
+    },
+    {
+      "trip": 328,
+      "action": 0,
+      "predicted_probs": [
+        0.3353342812138119,
+        0.03864571967912445,
+        0.050001014628371185
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 76,
+      "morties_on_planet_jessica": 559,
+      "morties_lost": 365,
+      "steps_taken": 328,
+      "status_message": "Listen Morty, I hate to break it to you, but what people call 'love' is just a chemical reaction."
+    },
+    {
+      "trip": 329,
+      "action": 0,
+      "predicted_probs": [
+        0.461320416836288,
+        0.03864571967912445,
+        0.050001014628371206
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 73,
+      "morties_on_planet_jessica": 562,
+      "morties_lost": 365,
+      "steps_taken": 329,
+      "status_message": "Get your sh*t together. Get it all together, and put it in a backpack."
+    },
+    {
+      "trip": 330,
+      "action": 0,
+      "predicted_probs": [
+        0.48759447045005466,
+        0.03864571967912445,
+        0.05000101462837118
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 70,
+      "morties_on_planet_jessica": 565,
+      "morties_lost": 365,
+      "steps_taken": 330,
+      "status_message": "Nobody exists on purpose. Nobody belongs anywhere. We're all going to die. Come save some Morties."
+    },
+    {
+      "trip": 331,
+      "action": 0,
+      "predicted_probs": [
+        0.5032119552694863,
+        0.03864571967912445,
+        0.050001014628371185
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 67,
+      "morties_on_planet_jessica": 568,
+      "morties_lost": 365,
+      "steps_taken": 331,
+      "status_message": "Existence is pain to a Meeseeks... and also to Morties on the wrong planet."
+    },
+    {
+      "trip": 332,
+      "action": 0,
+      "predicted_probs": [
+        0.32187324303644593,
+        0.03864571967912445,
+        0.050001014628371185
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 64,
+      "morties_on_planet_jessica": 568,
+      "morties_lost": 368,
+      "steps_taken": 332,
+      "status_message": "Sometimes science is more art than science, Morty."
+    },
+    {
+      "trip": 333,
+      "action": 0,
+      "predicted_probs": [
+        0.4400367772937996,
+        0.03864571967912445,
+        0.0500010146283712
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 61,
+      "morties_on_planet_jessica": 571,
+      "morties_lost": 368,
+      "steps_taken": 333,
+      "status_message": "Existence is pain to a Meeseeks... and also to Morties on the wrong planet."
+    },
+    {
+      "trip": 334,
+      "action": 0,
+      "predicted_probs": [
+        0.29026100088588236,
+        0.03864571967912445,
+        0.050001014628371206
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 58,
+      "morties_on_planet_jessica": 571,
+      "morties_lost": 371,
+      "steps_taken": 334,
+      "status_message": "Get your sh*t together. Get it all together, and put it in a backpack."
+    },
+    {
+      "trip": 335,
+      "action": 0,
+      "predicted_probs": [
+        0.4512254134530766,
+        0.03864571967912445,
+        0.0500010146283712
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 55,
+      "morties_on_planet_jessica": 571,
+      "morties_lost": 374,
+      "steps_taken": 335,
+      "status_message": "Quantum carburetor? Jesus, Morty. You can't just add a sci-fi word to a car word."
+    },
+    {
+      "trip": 336,
+      "action": 0,
+      "predicted_probs": [
+        0.3727999594465321,
+        0.03864571967912446,
+        0.05000101462837117
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 52,
+      "morties_on_planet_jessica": 571,
+      "morties_lost": 377,
+      "steps_taken": 336,
+      "status_message": "I'm a scientist; because I invent, transform, create, and destroy for a living."
+    },
+    {
+      "trip": 337,
+      "action": 0,
+      "predicted_probs": [
+        0.26290919866394663,
+        0.03864571967912445,
+        0.0500010146283712
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 49,
+      "morties_on_planet_jessica": 574,
+      "morties_lost": 377,
+      "steps_taken": 337,
+      "status_message": "Your boos mean nothing, I've seen what makes you cheer!"
+    },
+    {
+      "trip": 338,
+      "action": 0,
+      "predicted_probs": [
+        0.3353342812138119,
+        0.03864571967912445,
+        0.050001014628371206
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 46,
+      "morties_on_planet_jessica": 574,
+      "morties_lost": 380,
+      "steps_taken": 338,
+      "status_message": "That's planning for failure, Morty. Even dumber than regular planning."
+    },
+    {
+      "trip": 339,
+      "action": 0,
+      "predicted_probs": [
+        0.6429624520939143,
+        0.03864571967912446,
+        0.050001014628371185
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 43,
+      "morties_on_planet_jessica": 577,
+      "morties_lost": 380,
+      "steps_taken": 339,
+      "status_message": "Don't break an arm jerking yourself off."
+    },
+    {
+      "trip": 340,
+      "action": 0,
+      "predicted_probs": [
+        0.32026399630705166,
+        0.03864571967912445,
+        0.050001014628371185
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 40,
+      "morties_on_planet_jessica": 580,
+      "morties_lost": 380,
+      "steps_taken": 340,
+      "status_message": "I'm not looking for judgement, just a yes or no. Can you save these Morties?"
+    },
+    {
+      "trip": 341,
+      "action": 0,
+      "predicted_probs": [
+        0.4336962651560626,
+        0.03864571967912445,
+        0.0500010146283712
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 37,
+      "morties_on_planet_jessica": 583,
+      "morties_lost": 380,
+      "steps_taken": 341,
+      "status_message": "I'm not looking for judgement, just a yes or no. Can you save these Morties?"
+    },
+    {
+      "trip": 342,
+      "action": 0,
+      "predicted_probs": [
+        0.6066653530019015,
+        0.03864571967912445,
+        0.050001014628371185
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 34,
+      "morties_on_planet_jessica": 586,
+      "morties_lost": 380,
+      "steps_taken": 342,
+      "status_message": "Existence is pain to a Meeseeks... and also to Morties on the wrong planet."
+    },
+    {
+      "trip": 343,
+      "action": 0,
+      "predicted_probs": [
+        0.45934373692104186,
+        0.03864571967912445,
+        0.0500010146283712
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 31,
+      "morties_on_planet_jessica": 589,
+      "morties_lost": 380,
+      "steps_taken": 343,
+      "status_message": "Don't break an arm jerking yourself off."
+    },
+    {
+      "trip": 344,
+      "action": 0,
+      "predicted_probs": [
+        0.24164087890308644,
+        0.03864571967912446,
+        0.050001014628371185
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 28,
+      "morties_on_planet_jessica": 592,
+      "morties_lost": 380,
+      "steps_taken": 344,
+      "status_message": "Keep going! Or don't. I'm not your dad."
+    },
+    {
+      "trip": 345,
+      "action": 0,
+      "predicted_probs": [
+        0.16510762181857197,
+        0.03864571967912445,
+        0.050001014628371185
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 25,
+      "morties_on_planet_jessica": 592,
+      "morties_lost": 383,
+      "steps_taken": 345,
+      "status_message": "Your boos mean nothing, I've seen what makes you cheer!"
+    },
+    {
+      "trip": 346,
+      "action": 0,
+      "predicted_probs": [
+        0.47707679661687974,
+        0.03864571967912446,
+        0.0500010146283712
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 22,
+      "morties_on_planet_jessica": 592,
+      "morties_lost": 386,
+      "steps_taken": 346,
+      "status_message": "Listen Morty, I hate to break it to you, but what people call 'love' is just a chemical reaction."
+    },
+    {
+      "trip": 347,
+      "action": 0,
+      "predicted_probs": [
+        0.3606249224774812,
+        0.03864571967912445,
+        0.050001014628371206
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 19,
+      "morties_on_planet_jessica": 595,
+      "morties_lost": 386,
+      "steps_taken": 347,
+      "status_message": "Existence is pain to a Meeseeks... and also to Morties on the wrong planet."
+    },
+    {
+      "trip": 348,
+      "action": 0,
+      "predicted_probs": [
+        0.29301996930237073,
+        0.03864571967912445,
+        0.05000101462837118
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 16,
+      "morties_on_planet_jessica": 598,
+      "morties_lost": 386,
+      "steps_taken": 348,
+      "status_message": "You pass butter. Just kidding, you save Morties."
+    },
+    {
+      "trip": 349,
+      "action": 0,
+      "predicted_probs": [
+        0.46878319739990026,
+        0.03864571967912445,
+        0.050001014628371185
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 13,
+      "morties_on_planet_jessica": 601,
+      "morties_lost": 386,
+      "steps_taken": 349,
+      "status_message": "Get your sh*t together. Get it all together, and put it in a backpack."
+    },
+    {
+      "trip": 350,
+      "action": 0,
+      "predicted_probs": [
+        0.501697058277558,
+        0.03864571967912445,
+        0.050001014628371206
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 10,
+      "morties_on_planet_jessica": 604,
+      "morties_lost": 386,
+      "steps_taken": 350,
+      "status_message": "Get your sh*t together. Get it all together, and put it in a backpack."
+    },
+    {
+      "trip": 351,
+      "action": 0,
+      "predicted_probs": [
+        0.36365795741617013,
+        0.03864571967912445,
+        0.050001014628371206
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 7,
+      "morties_on_planet_jessica": 607,
+      "morties_lost": 386,
+      "steps_taken": 351,
+      "status_message": "Listen Morty, I hate to break it to you, but what people call 'love' is just a chemical reaction."
+    },
+    {
+      "trip": 352,
+      "action": 0,
+      "predicted_probs": [
+        0.3565526330223022,
+        0.03864571967912446,
+        0.050001014628371206
+      ],
+      "morties_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 4,
+      "morties_on_planet_jessica": 610,
+      "morties_lost": 386,
+      "steps_taken": 352,
+      "status_message": "I'm a scientist; because I invent, transform, create, and destroy for a living."
+    },
+    {
+      "trip": 353,
+      "action": 0,
+      "predicted_probs": [
+        0.2936315801480445,
+        0.03864571967912446,
+        0.050001014628371185
+      ],
+      "morties_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 1,
+      "morties_on_planet_jessica": 610,
+      "morties_lost": 389,
+      "steps_taken": 353,
+      "status_message": "Nobody exists on purpose. Nobody belongs anywhere. We're all going to die. Come save some Morties."
+    },
+    {
+      "trip": 354,
+      "action": 0,
+      "predicted_probs": [
+        0.4770767966168797,
+        0.03864571967912445,
+        0.050001014628371206
+      ],
+      "morties_sent": 1,
+      "survived": false,
+      "morties_in_citadel": 0,
+      "morties_on_planet_jessica": 610,
+      "morties_lost": 390,
+      "steps_taken": 354,
+      "status_message": "Your boos mean nothing, I've seen what makes you cheer!"
+    }
+  ]
+}

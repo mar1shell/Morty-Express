@@ -1,0 +1,3354 @@
+{
+  "run_number": 7,
+  "algo_name": "Baseline_P1_M3",
+  "strategy_params": {
+    "target_planet": 1,
+    "morty_count": 3
+  },
+  "success_percentage": 48.4,
+  "final_score": 484,
+  "morties_lost": 516,
+  "total_trips": 334,
+  "trip_data": [
+    {
+      "trip_number": 1,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 997,
+      "morties_on_planet_jessica": 3,
+      "morties_lost": 0,
+      "steps_taken": 1
+    },
+    {
+      "trip_number": 2,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 994,
+      "morties_on_planet_jessica": 3,
+      "morties_lost": 3,
+      "steps_taken": 2
+    },
+    {
+      "trip_number": 3,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 991,
+      "morties_on_planet_jessica": 3,
+      "morties_lost": 6,
+      "steps_taken": 3
+    },
+    {
+      "trip_number": 4,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 988,
+      "morties_on_planet_jessica": 3,
+      "morties_lost": 9,
+      "steps_taken": 4
+    },
+    {
+      "trip_number": 5,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 985,
+      "morties_on_planet_jessica": 3,
+      "morties_lost": 12,
+      "steps_taken": 5
+    },
+    {
+      "trip_number": 6,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 982,
+      "morties_on_planet_jessica": 3,
+      "morties_lost": 15,
+      "steps_taken": 6
+    },
+    {
+      "trip_number": 7,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 979,
+      "morties_on_planet_jessica": 3,
+      "morties_lost": 18,
+      "steps_taken": 7
+    },
+    {
+      "trip_number": 8,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 976,
+      "morties_on_planet_jessica": 3,
+      "morties_lost": 21,
+      "steps_taken": 8
+    },
+    {
+      "trip_number": 9,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 973,
+      "morties_on_planet_jessica": 3,
+      "morties_lost": 24,
+      "steps_taken": 9
+    },
+    {
+      "trip_number": 10,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 970,
+      "morties_on_planet_jessica": 3,
+      "morties_lost": 27,
+      "steps_taken": 10
+    },
+    {
+      "trip_number": 11,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 967,
+      "morties_on_planet_jessica": 6,
+      "morties_lost": 27,
+      "steps_taken": 11
+    },
+    {
+      "trip_number": 12,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 964,
+      "morties_on_planet_jessica": 9,
+      "morties_lost": 27,
+      "steps_taken": 12
+    },
+    {
+      "trip_number": 13,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 961,
+      "morties_on_planet_jessica": 12,
+      "morties_lost": 27,
+      "steps_taken": 13
+    },
+    {
+      "trip_number": 14,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 958,
+      "morties_on_planet_jessica": 15,
+      "morties_lost": 27,
+      "steps_taken": 14
+    },
+    {
+      "trip_number": 15,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 955,
+      "morties_on_planet_jessica": 18,
+      "morties_lost": 27,
+      "steps_taken": 15
+    },
+    {
+      "trip_number": 16,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 952,
+      "morties_on_planet_jessica": 21,
+      "morties_lost": 27,
+      "steps_taken": 16
+    },
+    {
+      "trip_number": 17,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 949,
+      "morties_on_planet_jessica": 24,
+      "morties_lost": 27,
+      "steps_taken": 17
+    },
+    {
+      "trip_number": 18,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 946,
+      "morties_on_planet_jessica": 27,
+      "morties_lost": 27,
+      "steps_taken": 18
+    },
+    {
+      "trip_number": 19,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 943,
+      "morties_on_planet_jessica": 27,
+      "morties_lost": 30,
+      "steps_taken": 19
+    },
+    {
+      "trip_number": 20,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 940,
+      "morties_on_planet_jessica": 30,
+      "morties_lost": 30,
+      "steps_taken": 20
+    },
+    {
+      "trip_number": 21,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 937,
+      "morties_on_planet_jessica": 30,
+      "morties_lost": 33,
+      "steps_taken": 21
+    },
+    {
+      "trip_number": 22,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 934,
+      "morties_on_planet_jessica": 33,
+      "morties_lost": 33,
+      "steps_taken": 22
+    },
+    {
+      "trip_number": 23,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 931,
+      "morties_on_planet_jessica": 33,
+      "morties_lost": 36,
+      "steps_taken": 23
+    },
+    {
+      "trip_number": 24,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 928,
+      "morties_on_planet_jessica": 33,
+      "morties_lost": 39,
+      "steps_taken": 24
+    },
+    {
+      "trip_number": 25,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 925,
+      "morties_on_planet_jessica": 33,
+      "morties_lost": 42,
+      "steps_taken": 25
+    },
+    {
+      "trip_number": 26,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 922,
+      "morties_on_planet_jessica": 33,
+      "morties_lost": 45,
+      "steps_taken": 26
+    },
+    {
+      "trip_number": 27,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 919,
+      "morties_on_planet_jessica": 33,
+      "morties_lost": 48,
+      "steps_taken": 27
+    },
+    {
+      "trip_number": 28,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 916,
+      "morties_on_planet_jessica": 33,
+      "morties_lost": 51,
+      "steps_taken": 28
+    },
+    {
+      "trip_number": 29,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 913,
+      "morties_on_planet_jessica": 33,
+      "morties_lost": 54,
+      "steps_taken": 29
+    },
+    {
+      "trip_number": 30,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 910,
+      "morties_on_planet_jessica": 33,
+      "morties_lost": 57,
+      "steps_taken": 30
+    },
+    {
+      "trip_number": 31,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 907,
+      "morties_on_planet_jessica": 33,
+      "morties_lost": 60,
+      "steps_taken": 31
+    },
+    {
+      "trip_number": 32,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 904,
+      "morties_on_planet_jessica": 36,
+      "morties_lost": 60,
+      "steps_taken": 32
+    },
+    {
+      "trip_number": 33,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 901,
+      "morties_on_planet_jessica": 36,
+      "morties_lost": 63,
+      "steps_taken": 33
+    },
+    {
+      "trip_number": 34,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 898,
+      "morties_on_planet_jessica": 39,
+      "morties_lost": 63,
+      "steps_taken": 34
+    },
+    {
+      "trip_number": 35,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 895,
+      "morties_on_planet_jessica": 42,
+      "morties_lost": 63,
+      "steps_taken": 35
+    },
+    {
+      "trip_number": 36,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 892,
+      "morties_on_planet_jessica": 45,
+      "morties_lost": 63,
+      "steps_taken": 36
+    },
+    {
+      "trip_number": 37,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 889,
+      "morties_on_planet_jessica": 48,
+      "morties_lost": 63,
+      "steps_taken": 37
+    },
+    {
+      "trip_number": 38,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 886,
+      "morties_on_planet_jessica": 51,
+      "morties_lost": 63,
+      "steps_taken": 38
+    },
+    {
+      "trip_number": 39,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 883,
+      "morties_on_planet_jessica": 51,
+      "morties_lost": 66,
+      "steps_taken": 39
+    },
+    {
+      "trip_number": 40,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 880,
+      "morties_on_planet_jessica": 54,
+      "morties_lost": 66,
+      "steps_taken": 40
+    },
+    {
+      "trip_number": 41,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 877,
+      "morties_on_planet_jessica": 54,
+      "morties_lost": 69,
+      "steps_taken": 41
+    },
+    {
+      "trip_number": 42,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 874,
+      "morties_on_planet_jessica": 57,
+      "morties_lost": 69,
+      "steps_taken": 42
+    },
+    {
+      "trip_number": 43,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 871,
+      "morties_on_planet_jessica": 57,
+      "morties_lost": 72,
+      "steps_taken": 43
+    },
+    {
+      "trip_number": 44,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 868,
+      "morties_on_planet_jessica": 57,
+      "morties_lost": 75,
+      "steps_taken": 44
+    },
+    {
+      "trip_number": 45,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 865,
+      "morties_on_planet_jessica": 57,
+      "morties_lost": 78,
+      "steps_taken": 45
+    },
+    {
+      "trip_number": 46,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 862,
+      "morties_on_planet_jessica": 57,
+      "morties_lost": 81,
+      "steps_taken": 46
+    },
+    {
+      "trip_number": 47,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 859,
+      "morties_on_planet_jessica": 57,
+      "morties_lost": 84,
+      "steps_taken": 47
+    },
+    {
+      "trip_number": 48,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 856,
+      "morties_on_planet_jessica": 57,
+      "morties_lost": 87,
+      "steps_taken": 48
+    },
+    {
+      "trip_number": 49,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 853,
+      "morties_on_planet_jessica": 57,
+      "morties_lost": 90,
+      "steps_taken": 49
+    },
+    {
+      "trip_number": 50,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 850,
+      "morties_on_planet_jessica": 60,
+      "morties_lost": 90,
+      "steps_taken": 50
+    },
+    {
+      "trip_number": 51,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 847,
+      "morties_on_planet_jessica": 63,
+      "morties_lost": 90,
+      "steps_taken": 51
+    },
+    {
+      "trip_number": 52,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 844,
+      "morties_on_planet_jessica": 66,
+      "morties_lost": 90,
+      "steps_taken": 52
+    },
+    {
+      "trip_number": 53,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 841,
+      "morties_on_planet_jessica": 69,
+      "morties_lost": 90,
+      "steps_taken": 53
+    },
+    {
+      "trip_number": 54,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 838,
+      "morties_on_planet_jessica": 72,
+      "morties_lost": 90,
+      "steps_taken": 54
+    },
+    {
+      "trip_number": 55,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 835,
+      "morties_on_planet_jessica": 75,
+      "morties_lost": 90,
+      "steps_taken": 55
+    },
+    {
+      "trip_number": 56,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 832,
+      "morties_on_planet_jessica": 78,
+      "morties_lost": 90,
+      "steps_taken": 56
+    },
+    {
+      "trip_number": 57,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 829,
+      "morties_on_planet_jessica": 81,
+      "morties_lost": 90,
+      "steps_taken": 57
+    },
+    {
+      "trip_number": 58,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 826,
+      "morties_on_planet_jessica": 84,
+      "morties_lost": 90,
+      "steps_taken": 58
+    },
+    {
+      "trip_number": 59,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 823,
+      "morties_on_planet_jessica": 87,
+      "morties_lost": 90,
+      "steps_taken": 59
+    },
+    {
+      "trip_number": 60,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 820,
+      "morties_on_planet_jessica": 90,
+      "morties_lost": 90,
+      "steps_taken": 60
+    },
+    {
+      "trip_number": 61,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 817,
+      "morties_on_planet_jessica": 90,
+      "morties_lost": 93,
+      "steps_taken": 61
+    },
+    {
+      "trip_number": 62,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 814,
+      "morties_on_planet_jessica": 90,
+      "morties_lost": 96,
+      "steps_taken": 62
+    },
+    {
+      "trip_number": 63,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 811,
+      "morties_on_planet_jessica": 93,
+      "morties_lost": 96,
+      "steps_taken": 63
+    },
+    {
+      "trip_number": 64,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 808,
+      "morties_on_planet_jessica": 93,
+      "morties_lost": 99,
+      "steps_taken": 64
+    },
+    {
+      "trip_number": 65,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 805,
+      "morties_on_planet_jessica": 93,
+      "morties_lost": 102,
+      "steps_taken": 65
+    },
+    {
+      "trip_number": 66,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 802,
+      "morties_on_planet_jessica": 93,
+      "morties_lost": 105,
+      "steps_taken": 66
+    },
+    {
+      "trip_number": 67,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 799,
+      "morties_on_planet_jessica": 93,
+      "morties_lost": 108,
+      "steps_taken": 67
+    },
+    {
+      "trip_number": 68,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 796,
+      "morties_on_planet_jessica": 93,
+      "morties_lost": 111,
+      "steps_taken": 68
+    },
+    {
+      "trip_number": 69,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 793,
+      "morties_on_planet_jessica": 96,
+      "morties_lost": 111,
+      "steps_taken": 69
+    },
+    {
+      "trip_number": 70,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 790,
+      "morties_on_planet_jessica": 99,
+      "morties_lost": 111,
+      "steps_taken": 70
+    },
+    {
+      "trip_number": 71,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 787,
+      "morties_on_planet_jessica": 102,
+      "morties_lost": 111,
+      "steps_taken": 71
+    },
+    {
+      "trip_number": 72,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 784,
+      "morties_on_planet_jessica": 102,
+      "morties_lost": 114,
+      "steps_taken": 72
+    },
+    {
+      "trip_number": 73,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 781,
+      "morties_on_planet_jessica": 105,
+      "morties_lost": 114,
+      "steps_taken": 73
+    },
+    {
+      "trip_number": 74,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 778,
+      "morties_on_planet_jessica": 108,
+      "morties_lost": 114,
+      "steps_taken": 74
+    },
+    {
+      "trip_number": 75,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 775,
+      "morties_on_planet_jessica": 111,
+      "morties_lost": 114,
+      "steps_taken": 75
+    },
+    {
+      "trip_number": 76,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 772,
+      "morties_on_planet_jessica": 114,
+      "morties_lost": 114,
+      "steps_taken": 76
+    },
+    {
+      "trip_number": 77,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 769,
+      "morties_on_planet_jessica": 117,
+      "morties_lost": 114,
+      "steps_taken": 77
+    },
+    {
+      "trip_number": 78,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 766,
+      "morties_on_planet_jessica": 120,
+      "morties_lost": 114,
+      "steps_taken": 78
+    },
+    {
+      "trip_number": 79,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 763,
+      "morties_on_planet_jessica": 120,
+      "morties_lost": 117,
+      "steps_taken": 79
+    },
+    {
+      "trip_number": 80,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 760,
+      "morties_on_planet_jessica": 123,
+      "morties_lost": 117,
+      "steps_taken": 80
+    },
+    {
+      "trip_number": 81,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 757,
+      "morties_on_planet_jessica": 123,
+      "morties_lost": 120,
+      "steps_taken": 81
+    },
+    {
+      "trip_number": 82,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 754,
+      "morties_on_planet_jessica": 123,
+      "morties_lost": 123,
+      "steps_taken": 82
+    },
+    {
+      "trip_number": 83,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 751,
+      "morties_on_planet_jessica": 123,
+      "morties_lost": 126,
+      "steps_taken": 83
+    },
+    {
+      "trip_number": 84,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 748,
+      "morties_on_planet_jessica": 123,
+      "morties_lost": 129,
+      "steps_taken": 84
+    },
+    {
+      "trip_number": 85,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 745,
+      "morties_on_planet_jessica": 123,
+      "morties_lost": 132,
+      "steps_taken": 85
+    },
+    {
+      "trip_number": 86,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 742,
+      "morties_on_planet_jessica": 123,
+      "morties_lost": 135,
+      "steps_taken": 86
+    },
+    {
+      "trip_number": 87,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 739,
+      "morties_on_planet_jessica": 123,
+      "morties_lost": 138,
+      "steps_taken": 87
+    },
+    {
+      "trip_number": 88,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 736,
+      "morties_on_planet_jessica": 123,
+      "morties_lost": 141,
+      "steps_taken": 88
+    },
+    {
+      "trip_number": 89,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 733,
+      "morties_on_planet_jessica": 123,
+      "morties_lost": 144,
+      "steps_taken": 89
+    },
+    {
+      "trip_number": 90,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 730,
+      "morties_on_planet_jessica": 123,
+      "morties_lost": 147,
+      "steps_taken": 90
+    },
+    {
+      "trip_number": 91,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 727,
+      "morties_on_planet_jessica": 126,
+      "morties_lost": 147,
+      "steps_taken": 91
+    },
+    {
+      "trip_number": 92,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 724,
+      "morties_on_planet_jessica": 129,
+      "morties_lost": 147,
+      "steps_taken": 92
+    },
+    {
+      "trip_number": 93,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 721,
+      "morties_on_planet_jessica": 132,
+      "morties_lost": 147,
+      "steps_taken": 93
+    },
+    {
+      "trip_number": 94,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 718,
+      "morties_on_planet_jessica": 135,
+      "morties_lost": 147,
+      "steps_taken": 94
+    },
+    {
+      "trip_number": 95,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 715,
+      "morties_on_planet_jessica": 138,
+      "morties_lost": 147,
+      "steps_taken": 95
+    },
+    {
+      "trip_number": 96,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 712,
+      "morties_on_planet_jessica": 141,
+      "morties_lost": 147,
+      "steps_taken": 96
+    },
+    {
+      "trip_number": 97,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 709,
+      "morties_on_planet_jessica": 144,
+      "morties_lost": 147,
+      "steps_taken": 97
+    },
+    {
+      "trip_number": 98,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 706,
+      "morties_on_planet_jessica": 147,
+      "morties_lost": 147,
+      "steps_taken": 98
+    },
+    {
+      "trip_number": 99,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 703,
+      "morties_on_planet_jessica": 150,
+      "morties_lost": 147,
+      "steps_taken": 99
+    },
+    {
+      "trip_number": 100,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 700,
+      "morties_on_planet_jessica": 153,
+      "morties_lost": 147,
+      "steps_taken": 100
+    },
+    {
+      "trip_number": 101,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 697,
+      "morties_on_planet_jessica": 153,
+      "morties_lost": 150,
+      "steps_taken": 101
+    },
+    {
+      "trip_number": 102,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 694,
+      "morties_on_planet_jessica": 156,
+      "morties_lost": 150,
+      "steps_taken": 102
+    },
+    {
+      "trip_number": 103,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 691,
+      "morties_on_planet_jessica": 156,
+      "morties_lost": 153,
+      "steps_taken": 103
+    },
+    {
+      "trip_number": 104,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 688,
+      "morties_on_planet_jessica": 156,
+      "morties_lost": 156,
+      "steps_taken": 104
+    },
+    {
+      "trip_number": 105,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 685,
+      "morties_on_planet_jessica": 156,
+      "morties_lost": 159,
+      "steps_taken": 105
+    },
+    {
+      "trip_number": 106,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 682,
+      "morties_on_planet_jessica": 156,
+      "morties_lost": 162,
+      "steps_taken": 106
+    },
+    {
+      "trip_number": 107,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 679,
+      "morties_on_planet_jessica": 156,
+      "morties_lost": 165,
+      "steps_taken": 107
+    },
+    {
+      "trip_number": 108,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 676,
+      "morties_on_planet_jessica": 156,
+      "morties_lost": 168,
+      "steps_taken": 108
+    },
+    {
+      "trip_number": 109,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 673,
+      "morties_on_planet_jessica": 156,
+      "morties_lost": 171,
+      "steps_taken": 109
+    },
+    {
+      "trip_number": 110,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 670,
+      "morties_on_planet_jessica": 159,
+      "morties_lost": 171,
+      "steps_taken": 110
+    },
+    {
+      "trip_number": 111,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 667,
+      "morties_on_planet_jessica": 159,
+      "morties_lost": 174,
+      "steps_taken": 111
+    },
+    {
+      "trip_number": 112,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 664,
+      "morties_on_planet_jessica": 159,
+      "morties_lost": 177,
+      "steps_taken": 112
+    },
+    {
+      "trip_number": 113,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 661,
+      "morties_on_planet_jessica": 159,
+      "morties_lost": 180,
+      "steps_taken": 113
+    },
+    {
+      "trip_number": 114,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 658,
+      "morties_on_planet_jessica": 162,
+      "morties_lost": 180,
+      "steps_taken": 114
+    },
+    {
+      "trip_number": 115,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 655,
+      "morties_on_planet_jessica": 165,
+      "morties_lost": 180,
+      "steps_taken": 115
+    },
+    {
+      "trip_number": 116,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 652,
+      "morties_on_planet_jessica": 168,
+      "morties_lost": 180,
+      "steps_taken": 116
+    },
+    {
+      "trip_number": 117,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 649,
+      "morties_on_planet_jessica": 171,
+      "morties_lost": 180,
+      "steps_taken": 117
+    },
+    {
+      "trip_number": 118,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 646,
+      "morties_on_planet_jessica": 174,
+      "morties_lost": 180,
+      "steps_taken": 118
+    },
+    {
+      "trip_number": 119,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 643,
+      "morties_on_planet_jessica": 174,
+      "morties_lost": 183,
+      "steps_taken": 119
+    },
+    {
+      "trip_number": 120,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 640,
+      "morties_on_planet_jessica": 177,
+      "morties_lost": 183,
+      "steps_taken": 120
+    },
+    {
+      "trip_number": 121,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 637,
+      "morties_on_planet_jessica": 180,
+      "morties_lost": 183,
+      "steps_taken": 121
+    },
+    {
+      "trip_number": 122,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 634,
+      "morties_on_planet_jessica": 180,
+      "morties_lost": 186,
+      "steps_taken": 122
+    },
+    {
+      "trip_number": 123,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 631,
+      "morties_on_planet_jessica": 180,
+      "morties_lost": 189,
+      "steps_taken": 123
+    },
+    {
+      "trip_number": 124,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 628,
+      "morties_on_planet_jessica": 180,
+      "morties_lost": 192,
+      "steps_taken": 124
+    },
+    {
+      "trip_number": 125,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 625,
+      "morties_on_planet_jessica": 180,
+      "morties_lost": 195,
+      "steps_taken": 125
+    },
+    {
+      "trip_number": 126,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 622,
+      "morties_on_planet_jessica": 180,
+      "morties_lost": 198,
+      "steps_taken": 126
+    },
+    {
+      "trip_number": 127,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 619,
+      "morties_on_planet_jessica": 180,
+      "morties_lost": 201,
+      "steps_taken": 127
+    },
+    {
+      "trip_number": 128,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 616,
+      "morties_on_planet_jessica": 180,
+      "morties_lost": 204,
+      "steps_taken": 128
+    },
+    {
+      "trip_number": 129,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 613,
+      "morties_on_planet_jessica": 180,
+      "morties_lost": 207,
+      "steps_taken": 129
+    },
+    {
+      "trip_number": 130,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 610,
+      "morties_on_planet_jessica": 180,
+      "morties_lost": 210,
+      "steps_taken": 130
+    },
+    {
+      "trip_number": 131,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 607,
+      "morties_on_planet_jessica": 183,
+      "morties_lost": 210,
+      "steps_taken": 131
+    },
+    {
+      "trip_number": 132,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 604,
+      "morties_on_planet_jessica": 186,
+      "morties_lost": 210,
+      "steps_taken": 132
+    },
+    {
+      "trip_number": 133,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 601,
+      "morties_on_planet_jessica": 189,
+      "morties_lost": 210,
+      "steps_taken": 133
+    },
+    {
+      "trip_number": 134,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 598,
+      "morties_on_planet_jessica": 192,
+      "morties_lost": 210,
+      "steps_taken": 134
+    },
+    {
+      "trip_number": 135,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 595,
+      "morties_on_planet_jessica": 195,
+      "morties_lost": 210,
+      "steps_taken": 135
+    },
+    {
+      "trip_number": 136,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 592,
+      "morties_on_planet_jessica": 198,
+      "morties_lost": 210,
+      "steps_taken": 136
+    },
+    {
+      "trip_number": 137,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 589,
+      "morties_on_planet_jessica": 201,
+      "morties_lost": 210,
+      "steps_taken": 137
+    },
+    {
+      "trip_number": 138,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 586,
+      "morties_on_planet_jessica": 204,
+      "morties_lost": 210,
+      "steps_taken": 138
+    },
+    {
+      "trip_number": 139,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 583,
+      "morties_on_planet_jessica": 207,
+      "morties_lost": 210,
+      "steps_taken": 139
+    },
+    {
+      "trip_number": 140,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 580,
+      "morties_on_planet_jessica": 210,
+      "morties_lost": 210,
+      "steps_taken": 140
+    },
+    {
+      "trip_number": 141,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 577,
+      "morties_on_planet_jessica": 210,
+      "morties_lost": 213,
+      "steps_taken": 141
+    },
+    {
+      "trip_number": 142,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 574,
+      "morties_on_planet_jessica": 213,
+      "morties_lost": 213,
+      "steps_taken": 142
+    },
+    {
+      "trip_number": 143,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 571,
+      "morties_on_planet_jessica": 213,
+      "morties_lost": 216,
+      "steps_taken": 143
+    },
+    {
+      "trip_number": 144,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 568,
+      "morties_on_planet_jessica": 213,
+      "morties_lost": 219,
+      "steps_taken": 144
+    },
+    {
+      "trip_number": 145,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 565,
+      "morties_on_planet_jessica": 213,
+      "morties_lost": 222,
+      "steps_taken": 145
+    },
+    {
+      "trip_number": 146,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 562,
+      "morties_on_planet_jessica": 213,
+      "morties_lost": 225,
+      "steps_taken": 146
+    },
+    {
+      "trip_number": 147,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 559,
+      "morties_on_planet_jessica": 213,
+      "morties_lost": 228,
+      "steps_taken": 147
+    },
+    {
+      "trip_number": 148,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 556,
+      "morties_on_planet_jessica": 213,
+      "morties_lost": 231,
+      "steps_taken": 148
+    },
+    {
+      "trip_number": 149,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 553,
+      "morties_on_planet_jessica": 213,
+      "morties_lost": 234,
+      "steps_taken": 149
+    },
+    {
+      "trip_number": 150,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 550,
+      "morties_on_planet_jessica": 216,
+      "morties_lost": 234,
+      "steps_taken": 150
+    },
+    {
+      "trip_number": 151,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 547,
+      "morties_on_planet_jessica": 219,
+      "morties_lost": 234,
+      "steps_taken": 151
+    },
+    {
+      "trip_number": 152,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 544,
+      "morties_on_planet_jessica": 219,
+      "morties_lost": 237,
+      "steps_taken": 152
+    },
+    {
+      "trip_number": 153,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 541,
+      "morties_on_planet_jessica": 222,
+      "morties_lost": 237,
+      "steps_taken": 153
+    },
+    {
+      "trip_number": 154,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 538,
+      "morties_on_planet_jessica": 225,
+      "morties_lost": 237,
+      "steps_taken": 154
+    },
+    {
+      "trip_number": 155,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 535,
+      "morties_on_planet_jessica": 228,
+      "morties_lost": 237,
+      "steps_taken": 155
+    },
+    {
+      "trip_number": 156,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 532,
+      "morties_on_planet_jessica": 231,
+      "morties_lost": 237,
+      "steps_taken": 156
+    },
+    {
+      "trip_number": 157,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 529,
+      "morties_on_planet_jessica": 234,
+      "morties_lost": 237,
+      "steps_taken": 157
+    },
+    {
+      "trip_number": 158,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 526,
+      "morties_on_planet_jessica": 237,
+      "morties_lost": 237,
+      "steps_taken": 158
+    },
+    {
+      "trip_number": 159,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 523,
+      "morties_on_planet_jessica": 240,
+      "morties_lost": 237,
+      "steps_taken": 159
+    },
+    {
+      "trip_number": 160,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 520,
+      "morties_on_planet_jessica": 240,
+      "morties_lost": 240,
+      "steps_taken": 160
+    },
+    {
+      "trip_number": 161,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 517,
+      "morties_on_planet_jessica": 240,
+      "morties_lost": 243,
+      "steps_taken": 161
+    },
+    {
+      "trip_number": 162,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 514,
+      "morties_on_planet_jessica": 240,
+      "morties_lost": 246,
+      "steps_taken": 162
+    },
+    {
+      "trip_number": 163,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 511,
+      "morties_on_planet_jessica": 243,
+      "morties_lost": 246,
+      "steps_taken": 163
+    },
+    {
+      "trip_number": 164,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 508,
+      "morties_on_planet_jessica": 243,
+      "morties_lost": 249,
+      "steps_taken": 164
+    },
+    {
+      "trip_number": 165,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 505,
+      "morties_on_planet_jessica": 243,
+      "morties_lost": 252,
+      "steps_taken": 165
+    },
+    {
+      "trip_number": 166,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 502,
+      "morties_on_planet_jessica": 243,
+      "morties_lost": 255,
+      "steps_taken": 166
+    },
+    {
+      "trip_number": 167,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 499,
+      "morties_on_planet_jessica": 243,
+      "morties_lost": 258,
+      "steps_taken": 167
+    },
+    {
+      "trip_number": 168,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 496,
+      "morties_on_planet_jessica": 243,
+      "morties_lost": 261,
+      "steps_taken": 168
+    },
+    {
+      "trip_number": 169,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 493,
+      "morties_on_planet_jessica": 243,
+      "morties_lost": 264,
+      "steps_taken": 169
+    },
+    {
+      "trip_number": 170,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 490,
+      "morties_on_planet_jessica": 243,
+      "morties_lost": 267,
+      "steps_taken": 170
+    },
+    {
+      "trip_number": 171,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 487,
+      "morties_on_planet_jessica": 246,
+      "morties_lost": 267,
+      "steps_taken": 171
+    },
+    {
+      "trip_number": 172,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 484,
+      "morties_on_planet_jessica": 249,
+      "morties_lost": 267,
+      "steps_taken": 172
+    },
+    {
+      "trip_number": 173,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 481,
+      "morties_on_planet_jessica": 252,
+      "morties_lost": 267,
+      "steps_taken": 173
+    },
+    {
+      "trip_number": 174,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 478,
+      "morties_on_planet_jessica": 255,
+      "morties_lost": 267,
+      "steps_taken": 174
+    },
+    {
+      "trip_number": 175,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 475,
+      "morties_on_planet_jessica": 258,
+      "morties_lost": 267,
+      "steps_taken": 175
+    },
+    {
+      "trip_number": 176,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 472,
+      "morties_on_planet_jessica": 261,
+      "morties_lost": 267,
+      "steps_taken": 176
+    },
+    {
+      "trip_number": 177,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 469,
+      "morties_on_planet_jessica": 261,
+      "morties_lost": 270,
+      "steps_taken": 177
+    },
+    {
+      "trip_number": 178,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 466,
+      "morties_on_planet_jessica": 264,
+      "morties_lost": 270,
+      "steps_taken": 178
+    },
+    {
+      "trip_number": 179,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 463,
+      "morties_on_planet_jessica": 264,
+      "morties_lost": 273,
+      "steps_taken": 179
+    },
+    {
+      "trip_number": 180,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 460,
+      "morties_on_planet_jessica": 267,
+      "morties_lost": 273,
+      "steps_taken": 180
+    },
+    {
+      "trip_number": 181,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 457,
+      "morties_on_planet_jessica": 270,
+      "morties_lost": 273,
+      "steps_taken": 181
+    },
+    {
+      "trip_number": 182,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 454,
+      "morties_on_planet_jessica": 270,
+      "morties_lost": 276,
+      "steps_taken": 182
+    },
+    {
+      "trip_number": 183,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 451,
+      "morties_on_planet_jessica": 270,
+      "morties_lost": 279,
+      "steps_taken": 183
+    },
+    {
+      "trip_number": 184,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 448,
+      "morties_on_planet_jessica": 273,
+      "morties_lost": 279,
+      "steps_taken": 184
+    },
+    {
+      "trip_number": 185,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 445,
+      "morties_on_planet_jessica": 273,
+      "morties_lost": 282,
+      "steps_taken": 185
+    },
+    {
+      "trip_number": 186,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 442,
+      "morties_on_planet_jessica": 273,
+      "morties_lost": 285,
+      "steps_taken": 186
+    },
+    {
+      "trip_number": 187,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 439,
+      "morties_on_planet_jessica": 273,
+      "morties_lost": 288,
+      "steps_taken": 187
+    },
+    {
+      "trip_number": 188,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 436,
+      "morties_on_planet_jessica": 273,
+      "morties_lost": 291,
+      "steps_taken": 188
+    },
+    {
+      "trip_number": 189,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 433,
+      "morties_on_planet_jessica": 273,
+      "morties_lost": 294,
+      "steps_taken": 189
+    },
+    {
+      "trip_number": 190,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 430,
+      "morties_on_planet_jessica": 273,
+      "morties_lost": 297,
+      "steps_taken": 190
+    },
+    {
+      "trip_number": 191,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 427,
+      "morties_on_planet_jessica": 276,
+      "morties_lost": 297,
+      "steps_taken": 191
+    },
+    {
+      "trip_number": 192,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 424,
+      "morties_on_planet_jessica": 276,
+      "morties_lost": 300,
+      "steps_taken": 192
+    },
+    {
+      "trip_number": 193,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 421,
+      "morties_on_planet_jessica": 279,
+      "morties_lost": 300,
+      "steps_taken": 193
+    },
+    {
+      "trip_number": 194,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 418,
+      "morties_on_planet_jessica": 282,
+      "morties_lost": 300,
+      "steps_taken": 194
+    },
+    {
+      "trip_number": 195,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 415,
+      "morties_on_planet_jessica": 285,
+      "morties_lost": 300,
+      "steps_taken": 195
+    },
+    {
+      "trip_number": 196,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 412,
+      "morties_on_planet_jessica": 288,
+      "morties_lost": 300,
+      "steps_taken": 196
+    },
+    {
+      "trip_number": 197,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 409,
+      "morties_on_planet_jessica": 291,
+      "morties_lost": 300,
+      "steps_taken": 197
+    },
+    {
+      "trip_number": 198,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 406,
+      "morties_on_planet_jessica": 291,
+      "morties_lost": 303,
+      "steps_taken": 198
+    },
+    {
+      "trip_number": 199,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 403,
+      "morties_on_planet_jessica": 291,
+      "morties_lost": 306,
+      "steps_taken": 199
+    },
+    {
+      "trip_number": 200,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 400,
+      "morties_on_planet_jessica": 294,
+      "morties_lost": 306,
+      "steps_taken": 200
+    },
+    {
+      "trip_number": 201,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 397,
+      "morties_on_planet_jessica": 297,
+      "morties_lost": 306,
+      "steps_taken": 201
+    },
+    {
+      "trip_number": 202,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 394,
+      "morties_on_planet_jessica": 300,
+      "morties_lost": 306,
+      "steps_taken": 202
+    },
+    {
+      "trip_number": 203,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 391,
+      "morties_on_planet_jessica": 300,
+      "morties_lost": 309,
+      "steps_taken": 203
+    },
+    {
+      "trip_number": 204,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 388,
+      "morties_on_planet_jessica": 300,
+      "morties_lost": 312,
+      "steps_taken": 204
+    },
+    {
+      "trip_number": 205,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 385,
+      "morties_on_planet_jessica": 300,
+      "morties_lost": 315,
+      "steps_taken": 205
+    },
+    {
+      "trip_number": 206,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 382,
+      "morties_on_planet_jessica": 300,
+      "morties_lost": 318,
+      "steps_taken": 206
+    },
+    {
+      "trip_number": 207,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 379,
+      "morties_on_planet_jessica": 300,
+      "morties_lost": 321,
+      "steps_taken": 207
+    },
+    {
+      "trip_number": 208,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 376,
+      "morties_on_planet_jessica": 300,
+      "morties_lost": 324,
+      "steps_taken": 208
+    },
+    {
+      "trip_number": 209,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 373,
+      "morties_on_planet_jessica": 300,
+      "morties_lost": 327,
+      "steps_taken": 209
+    },
+    {
+      "trip_number": 210,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 370,
+      "morties_on_planet_jessica": 300,
+      "morties_lost": 330,
+      "steps_taken": 210
+    },
+    {
+      "trip_number": 211,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 367,
+      "morties_on_planet_jessica": 303,
+      "morties_lost": 330,
+      "steps_taken": 211
+    },
+    {
+      "trip_number": 212,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 364,
+      "morties_on_planet_jessica": 306,
+      "morties_lost": 330,
+      "steps_taken": 212
+    },
+    {
+      "trip_number": 213,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 361,
+      "morties_on_planet_jessica": 309,
+      "morties_lost": 330,
+      "steps_taken": 213
+    },
+    {
+      "trip_number": 214,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 358,
+      "morties_on_planet_jessica": 312,
+      "morties_lost": 330,
+      "steps_taken": 214
+    },
+    {
+      "trip_number": 215,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 355,
+      "morties_on_planet_jessica": 315,
+      "morties_lost": 330,
+      "steps_taken": 215
+    },
+    {
+      "trip_number": 216,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 352,
+      "morties_on_planet_jessica": 318,
+      "morties_lost": 330,
+      "steps_taken": 216
+    },
+    {
+      "trip_number": 217,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 349,
+      "morties_on_planet_jessica": 321,
+      "morties_lost": 330,
+      "steps_taken": 217
+    },
+    {
+      "trip_number": 218,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 346,
+      "morties_on_planet_jessica": 324,
+      "morties_lost": 330,
+      "steps_taken": 218
+    },
+    {
+      "trip_number": 219,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 343,
+      "morties_on_planet_jessica": 327,
+      "morties_lost": 330,
+      "steps_taken": 219
+    },
+    {
+      "trip_number": 220,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 340,
+      "morties_on_planet_jessica": 330,
+      "morties_lost": 330,
+      "steps_taken": 220
+    },
+    {
+      "trip_number": 221,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 337,
+      "morties_on_planet_jessica": 330,
+      "morties_lost": 333,
+      "steps_taken": 221
+    },
+    {
+      "trip_number": 222,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 334,
+      "morties_on_planet_jessica": 330,
+      "morties_lost": 336,
+      "steps_taken": 222
+    },
+    {
+      "trip_number": 223,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 331,
+      "morties_on_planet_jessica": 330,
+      "morties_lost": 339,
+      "steps_taken": 223
+    },
+    {
+      "trip_number": 224,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 328,
+      "morties_on_planet_jessica": 330,
+      "morties_lost": 342,
+      "steps_taken": 224
+    },
+    {
+      "trip_number": 225,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 325,
+      "morties_on_planet_jessica": 330,
+      "morties_lost": 345,
+      "steps_taken": 225
+    },
+    {
+      "trip_number": 226,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 322,
+      "morties_on_planet_jessica": 330,
+      "morties_lost": 348,
+      "steps_taken": 226
+    },
+    {
+      "trip_number": 227,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 319,
+      "morties_on_planet_jessica": 330,
+      "morties_lost": 351,
+      "steps_taken": 227
+    },
+    {
+      "trip_number": 228,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 316,
+      "morties_on_planet_jessica": 330,
+      "morties_lost": 354,
+      "steps_taken": 228
+    },
+    {
+      "trip_number": 229,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 313,
+      "morties_on_planet_jessica": 330,
+      "morties_lost": 357,
+      "steps_taken": 229
+    },
+    {
+      "trip_number": 230,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 310,
+      "morties_on_planet_jessica": 330,
+      "morties_lost": 360,
+      "steps_taken": 230
+    },
+    {
+      "trip_number": 231,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 307,
+      "morties_on_planet_jessica": 333,
+      "morties_lost": 360,
+      "steps_taken": 231
+    },
+    {
+      "trip_number": 232,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 304,
+      "morties_on_planet_jessica": 333,
+      "morties_lost": 363,
+      "steps_taken": 232
+    },
+    {
+      "trip_number": 233,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 301,
+      "morties_on_planet_jessica": 336,
+      "morties_lost": 363,
+      "steps_taken": 233
+    },
+    {
+      "trip_number": 234,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 298,
+      "morties_on_planet_jessica": 339,
+      "morties_lost": 363,
+      "steps_taken": 234
+    },
+    {
+      "trip_number": 235,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 295,
+      "morties_on_planet_jessica": 342,
+      "morties_lost": 363,
+      "steps_taken": 235
+    },
+    {
+      "trip_number": 236,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 292,
+      "morties_on_planet_jessica": 345,
+      "morties_lost": 363,
+      "steps_taken": 236
+    },
+    {
+      "trip_number": 237,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 289,
+      "morties_on_planet_jessica": 345,
+      "morties_lost": 366,
+      "steps_taken": 237
+    },
+    {
+      "trip_number": 238,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 286,
+      "morties_on_planet_jessica": 348,
+      "morties_lost": 366,
+      "steps_taken": 238
+    },
+    {
+      "trip_number": 239,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 283,
+      "morties_on_planet_jessica": 348,
+      "morties_lost": 369,
+      "steps_taken": 239
+    },
+    {
+      "trip_number": 240,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 280,
+      "morties_on_planet_jessica": 348,
+      "morties_lost": 372,
+      "steps_taken": 240
+    },
+    {
+      "trip_number": 241,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 277,
+      "morties_on_planet_jessica": 351,
+      "morties_lost": 372,
+      "steps_taken": 241
+    },
+    {
+      "trip_number": 242,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 274,
+      "morties_on_planet_jessica": 351,
+      "morties_lost": 375,
+      "steps_taken": 242
+    },
+    {
+      "trip_number": 243,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 271,
+      "morties_on_planet_jessica": 351,
+      "morties_lost": 378,
+      "steps_taken": 243
+    },
+    {
+      "trip_number": 244,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 268,
+      "morties_on_planet_jessica": 351,
+      "morties_lost": 381,
+      "steps_taken": 244
+    },
+    {
+      "trip_number": 245,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 265,
+      "morties_on_planet_jessica": 351,
+      "morties_lost": 384,
+      "steps_taken": 245
+    },
+    {
+      "trip_number": 246,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 262,
+      "morties_on_planet_jessica": 351,
+      "morties_lost": 387,
+      "steps_taken": 246
+    },
+    {
+      "trip_number": 247,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 259,
+      "morties_on_planet_jessica": 351,
+      "morties_lost": 390,
+      "steps_taken": 247
+    },
+    {
+      "trip_number": 248,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 256,
+      "morties_on_planet_jessica": 351,
+      "morties_lost": 393,
+      "steps_taken": 248
+    },
+    {
+      "trip_number": 249,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 253,
+      "morties_on_planet_jessica": 351,
+      "morties_lost": 396,
+      "steps_taken": 249
+    },
+    {
+      "trip_number": 250,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 250,
+      "morties_on_planet_jessica": 351,
+      "morties_lost": 399,
+      "steps_taken": 250
+    },
+    {
+      "trip_number": 251,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 247,
+      "morties_on_planet_jessica": 354,
+      "morties_lost": 399,
+      "steps_taken": 251
+    },
+    {
+      "trip_number": 252,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 244,
+      "morties_on_planet_jessica": 357,
+      "morties_lost": 399,
+      "steps_taken": 252
+    },
+    {
+      "trip_number": 253,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 241,
+      "morties_on_planet_jessica": 360,
+      "morties_lost": 399,
+      "steps_taken": 253
+    },
+    {
+      "trip_number": 254,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 238,
+      "morties_on_planet_jessica": 363,
+      "morties_lost": 399,
+      "steps_taken": 254
+    },
+    {
+      "trip_number": 255,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 235,
+      "morties_on_planet_jessica": 366,
+      "morties_lost": 399,
+      "steps_taken": 255
+    },
+    {
+      "trip_number": 256,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 232,
+      "morties_on_planet_jessica": 369,
+      "morties_lost": 399,
+      "steps_taken": 256
+    },
+    {
+      "trip_number": 257,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 229,
+      "morties_on_planet_jessica": 372,
+      "morties_lost": 399,
+      "steps_taken": 257
+    },
+    {
+      "trip_number": 258,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 226,
+      "morties_on_planet_jessica": 375,
+      "morties_lost": 399,
+      "steps_taken": 258
+    },
+    {
+      "trip_number": 259,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 223,
+      "morties_on_planet_jessica": 378,
+      "morties_lost": 399,
+      "steps_taken": 259
+    },
+    {
+      "trip_number": 260,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 220,
+      "morties_on_planet_jessica": 381,
+      "morties_lost": 399,
+      "steps_taken": 260
+    },
+    {
+      "trip_number": 261,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 217,
+      "morties_on_planet_jessica": 384,
+      "morties_lost": 399,
+      "steps_taken": 261
+    },
+    {
+      "trip_number": 262,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 214,
+      "morties_on_planet_jessica": 384,
+      "morties_lost": 402,
+      "steps_taken": 262
+    },
+    {
+      "trip_number": 263,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 211,
+      "morties_on_planet_jessica": 384,
+      "morties_lost": 405,
+      "steps_taken": 263
+    },
+    {
+      "trip_number": 264,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 208,
+      "morties_on_planet_jessica": 384,
+      "morties_lost": 408,
+      "steps_taken": 264
+    },
+    {
+      "trip_number": 265,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 205,
+      "morties_on_planet_jessica": 384,
+      "morties_lost": 411,
+      "steps_taken": 265
+    },
+    {
+      "trip_number": 266,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 202,
+      "morties_on_planet_jessica": 384,
+      "morties_lost": 414,
+      "steps_taken": 266
+    },
+    {
+      "trip_number": 267,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 199,
+      "morties_on_planet_jessica": 384,
+      "morties_lost": 417,
+      "steps_taken": 267
+    },
+    {
+      "trip_number": 268,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 196,
+      "morties_on_planet_jessica": 384,
+      "morties_lost": 420,
+      "steps_taken": 268
+    },
+    {
+      "trip_number": 269,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 193,
+      "morties_on_planet_jessica": 384,
+      "morties_lost": 423,
+      "steps_taken": 269
+    },
+    {
+      "trip_number": 270,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 190,
+      "morties_on_planet_jessica": 387,
+      "morties_lost": 423,
+      "steps_taken": 270
+    },
+    {
+      "trip_number": 271,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 187,
+      "morties_on_planet_jessica": 390,
+      "morties_lost": 423,
+      "steps_taken": 271
+    },
+    {
+      "trip_number": 272,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 184,
+      "morties_on_planet_jessica": 390,
+      "morties_lost": 426,
+      "steps_taken": 272
+    },
+    {
+      "trip_number": 273,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 181,
+      "morties_on_planet_jessica": 390,
+      "morties_lost": 429,
+      "steps_taken": 273
+    },
+    {
+      "trip_number": 274,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 178,
+      "morties_on_planet_jessica": 393,
+      "morties_lost": 429,
+      "steps_taken": 274
+    },
+    {
+      "trip_number": 275,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 175,
+      "morties_on_planet_jessica": 396,
+      "morties_lost": 429,
+      "steps_taken": 275
+    },
+    {
+      "trip_number": 276,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 172,
+      "morties_on_planet_jessica": 399,
+      "morties_lost": 429,
+      "steps_taken": 276
+    },
+    {
+      "trip_number": 277,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 169,
+      "morties_on_planet_jessica": 402,
+      "morties_lost": 429,
+      "steps_taken": 277
+    },
+    {
+      "trip_number": 278,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 166,
+      "morties_on_planet_jessica": 405,
+      "morties_lost": 429,
+      "steps_taken": 278
+    },
+    {
+      "trip_number": 279,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 163,
+      "morties_on_planet_jessica": 408,
+      "morties_lost": 429,
+      "steps_taken": 279
+    },
+    {
+      "trip_number": 280,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 160,
+      "morties_on_planet_jessica": 411,
+      "morties_lost": 429,
+      "steps_taken": 280
+    },
+    {
+      "trip_number": 281,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 157,
+      "morties_on_planet_jessica": 414,
+      "morties_lost": 429,
+      "steps_taken": 281
+    },
+    {
+      "trip_number": 282,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 154,
+      "morties_on_planet_jessica": 414,
+      "morties_lost": 432,
+      "steps_taken": 282
+    },
+    {
+      "trip_number": 283,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 151,
+      "morties_on_planet_jessica": 414,
+      "morties_lost": 435,
+      "steps_taken": 283
+    },
+    {
+      "trip_number": 284,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 148,
+      "morties_on_planet_jessica": 414,
+      "morties_lost": 438,
+      "steps_taken": 284
+    },
+    {
+      "trip_number": 285,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 145,
+      "morties_on_planet_jessica": 414,
+      "morties_lost": 441,
+      "steps_taken": 285
+    },
+    {
+      "trip_number": 286,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 142,
+      "morties_on_planet_jessica": 414,
+      "morties_lost": 444,
+      "steps_taken": 286
+    },
+    {
+      "trip_number": 287,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 139,
+      "morties_on_planet_jessica": 414,
+      "morties_lost": 447,
+      "steps_taken": 287
+    },
+    {
+      "trip_number": 288,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 136,
+      "morties_on_planet_jessica": 414,
+      "morties_lost": 450,
+      "steps_taken": 288
+    },
+    {
+      "trip_number": 289,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 133,
+      "morties_on_planet_jessica": 417,
+      "morties_lost": 450,
+      "steps_taken": 289
+    },
+    {
+      "trip_number": 290,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 130,
+      "morties_on_planet_jessica": 417,
+      "morties_lost": 453,
+      "steps_taken": 290
+    },
+    {
+      "trip_number": 291,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 127,
+      "morties_on_planet_jessica": 420,
+      "morties_lost": 453,
+      "steps_taken": 291
+    },
+    {
+      "trip_number": 292,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 124,
+      "morties_on_planet_jessica": 423,
+      "morties_lost": 453,
+      "steps_taken": 292
+    },
+    {
+      "trip_number": 293,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 121,
+      "morties_on_planet_jessica": 426,
+      "morties_lost": 453,
+      "steps_taken": 293
+    },
+    {
+      "trip_number": 294,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 118,
+      "morties_on_planet_jessica": 429,
+      "morties_lost": 453,
+      "steps_taken": 294
+    },
+    {
+      "trip_number": 295,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 115,
+      "morties_on_planet_jessica": 432,
+      "morties_lost": 453,
+      "steps_taken": 295
+    },
+    {
+      "trip_number": 296,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 112,
+      "morties_on_planet_jessica": 435,
+      "morties_lost": 453,
+      "steps_taken": 296
+    },
+    {
+      "trip_number": 297,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 109,
+      "morties_on_planet_jessica": 438,
+      "morties_lost": 453,
+      "steps_taken": 297
+    },
+    {
+      "trip_number": 298,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 106,
+      "morties_on_planet_jessica": 441,
+      "morties_lost": 453,
+      "steps_taken": 298
+    },
+    {
+      "trip_number": 299,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 103,
+      "morties_on_planet_jessica": 444,
+      "morties_lost": 453,
+      "steps_taken": 299
+    },
+    {
+      "trip_number": 300,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 100,
+      "morties_on_planet_jessica": 447,
+      "morties_lost": 453,
+      "steps_taken": 300
+    },
+    {
+      "trip_number": 301,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 97,
+      "morties_on_planet_jessica": 450,
+      "morties_lost": 453,
+      "steps_taken": 301
+    },
+    {
+      "trip_number": 302,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 94,
+      "morties_on_planet_jessica": 450,
+      "morties_lost": 456,
+      "steps_taken": 302
+    },
+    {
+      "trip_number": 303,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 91,
+      "morties_on_planet_jessica": 450,
+      "morties_lost": 459,
+      "steps_taken": 303
+    },
+    {
+      "trip_number": 304,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 88,
+      "morties_on_planet_jessica": 450,
+      "morties_lost": 462,
+      "steps_taken": 304
+    },
+    {
+      "trip_number": 305,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 85,
+      "morties_on_planet_jessica": 450,
+      "morties_lost": 465,
+      "steps_taken": 305
+    },
+    {
+      "trip_number": 306,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 82,
+      "morties_on_planet_jessica": 450,
+      "morties_lost": 468,
+      "steps_taken": 306
+    },
+    {
+      "trip_number": 307,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 79,
+      "morties_on_planet_jessica": 450,
+      "morties_lost": 471,
+      "steps_taken": 307
+    },
+    {
+      "trip_number": 308,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 76,
+      "morties_on_planet_jessica": 450,
+      "morties_lost": 474,
+      "steps_taken": 308
+    },
+    {
+      "trip_number": 309,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 73,
+      "morties_on_planet_jessica": 450,
+      "morties_lost": 477,
+      "steps_taken": 309
+    },
+    {
+      "trip_number": 310,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 70,
+      "morties_on_planet_jessica": 450,
+      "morties_lost": 480,
+      "steps_taken": 310
+    },
+    {
+      "trip_number": 311,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 67,
+      "morties_on_planet_jessica": 450,
+      "morties_lost": 483,
+      "steps_taken": 311
+    },
+    {
+      "trip_number": 312,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 64,
+      "morties_on_planet_jessica": 450,
+      "morties_lost": 486,
+      "steps_taken": 312
+    },
+    {
+      "trip_number": 313,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 61,
+      "morties_on_planet_jessica": 453,
+      "morties_lost": 486,
+      "steps_taken": 313
+    },
+    {
+      "trip_number": 314,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 58,
+      "morties_on_planet_jessica": 456,
+      "morties_lost": 486,
+      "steps_taken": 314
+    },
+    {
+      "trip_number": 315,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 55,
+      "morties_on_planet_jessica": 459,
+      "morties_lost": 486,
+      "steps_taken": 315
+    },
+    {
+      "trip_number": 316,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 52,
+      "morties_on_planet_jessica": 462,
+      "morties_lost": 486,
+      "steps_taken": 316
+    },
+    {
+      "trip_number": 317,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 49,
+      "morties_on_planet_jessica": 465,
+      "morties_lost": 486,
+      "steps_taken": 317
+    },
+    {
+      "trip_number": 318,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 46,
+      "morties_on_planet_jessica": 468,
+      "morties_lost": 486,
+      "steps_taken": 318
+    },
+    {
+      "trip_number": 319,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 43,
+      "morties_on_planet_jessica": 471,
+      "morties_lost": 486,
+      "steps_taken": 319
+    },
+    {
+      "trip_number": 320,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 40,
+      "morties_on_planet_jessica": 471,
+      "morties_lost": 489,
+      "steps_taken": 320
+    },
+    {
+      "trip_number": 321,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 37,
+      "morties_on_planet_jessica": 471,
+      "morties_lost": 492,
+      "steps_taken": 321
+    },
+    {
+      "trip_number": 322,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 34,
+      "morties_on_planet_jessica": 471,
+      "morties_lost": 495,
+      "steps_taken": 322
+    },
+    {
+      "trip_number": 323,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 31,
+      "morties_on_planet_jessica": 474,
+      "morties_lost": 495,
+      "steps_taken": 323
+    },
+    {
+      "trip_number": 324,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 28,
+      "morties_on_planet_jessica": 474,
+      "morties_lost": 498,
+      "steps_taken": 324
+    },
+    {
+      "trip_number": 325,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 25,
+      "morties_on_planet_jessica": 474,
+      "morties_lost": 501,
+      "steps_taken": 325
+    },
+    {
+      "trip_number": 326,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 22,
+      "morties_on_planet_jessica": 474,
+      "morties_lost": 504,
+      "steps_taken": 326
+    },
+    {
+      "trip_number": 327,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 19,
+      "morties_on_planet_jessica": 474,
+      "morties_lost": 507,
+      "steps_taken": 327
+    },
+    {
+      "trip_number": 328,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 16,
+      "morties_on_planet_jessica": 474,
+      "morties_lost": 510,
+      "steps_taken": 328
+    },
+    {
+      "trip_number": 329,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 13,
+      "morties_on_planet_jessica": 474,
+      "morties_lost": 513,
+      "steps_taken": 329
+    },
+    {
+      "trip_number": 330,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 10,
+      "morties_on_planet_jessica": 477,
+      "morties_lost": 513,
+      "steps_taken": 330
+    },
+    {
+      "trip_number": 331,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 7,
+      "morties_on_planet_jessica": 480,
+      "morties_lost": 513,
+      "steps_taken": 331
+    },
+    {
+      "trip_number": 332,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": false,
+      "morties_in_citadel": 4,
+      "morties_on_planet_jessica": 480,
+      "morties_lost": 516,
+      "steps_taken": 332
+    },
+    {
+      "trip_number": 333,
+      "planet": 1,
+      "mortys_sent": 3,
+      "survived": true,
+      "morties_in_citadel": 1,
+      "morties_on_planet_jessica": 483,
+      "morties_lost": 516,
+      "steps_taken": 333
+    },
+    {
+      "trip_number": 334,
+      "planet": 1,
+      "mortys_sent": 1,
+      "survived": true,
+      "morties_in_citadel": 0,
+      "morties_on_planet_jessica": 484,
+      "morties_lost": 516,
+      "steps_taken": 334
+    }
+  ]
+}
