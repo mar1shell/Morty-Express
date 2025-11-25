@@ -287,4 +287,4 @@ Special thanks to the Sphinx Labs team for organizing this exciting challenge.
 
 ---
 
-<p align="center">Created with ❤️ by mar1shell[Your Name]</p>
+<p align="center">Created with ❤️ by mar1shell</p>
